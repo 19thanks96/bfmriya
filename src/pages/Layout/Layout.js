@@ -1,20 +1,19 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "./Link/Link";
+import './Link/Link.scss'
 
 
 
 const Layout = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Хто ми</Link>
-          </li>
-          <li>
-            <Link to="/app">Blogs</Link>
-          </li>
-        </ul>
+      <nav  className="naw-wrapper">
+        <div className="link-wrapper">
+          <Link to="/">Хто ми</Link>
+        </div>
+        <div>
+          <Link to="/app">Blogs</Link>
+        </div>
       </nav>
 
       <Outlet />
