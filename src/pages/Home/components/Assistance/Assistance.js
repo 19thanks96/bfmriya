@@ -1,5 +1,5 @@
 import { SecondTitle } from "../../../../shared/Title/SecondTitle"
-import { CircleText } from "./CircleText/CircleText"
+import { AssistanceItemList } from "./CircleText/AssistanceItemList"
 
 
 export const Assistance = () => {
@@ -9,7 +9,7 @@ export const Assistance = () => {
             primary='Яку допомогу надає наш фонд?' 
             secondary='WHAT KIND OF ASSISTANCE DO WE PROVIDE?'
             />
-            <CircleText/>
+            <AssistanceItemList/>
         </>
     )
 }

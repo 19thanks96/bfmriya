@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     gap: 3vw;
     margin-bottom: 5vw;
-    font-size: 2.7vw;
+    font-size: 4vw;
 }
 .circle{
     width: 10vw;
@@ -47,4 +47,3 @@
 .circle.tint50{
     background-color: tint-color($success, 50%);
 }
-
