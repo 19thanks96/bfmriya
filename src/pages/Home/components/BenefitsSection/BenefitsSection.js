@@ -1,27 +1,29 @@
 import { Benefit } from "./Benefit/Benefit"
-import information from './Benefit/imgs/information.png'
-import trophy from './Benefit/imgs/trophy.png'
-import handshake from './Benefit/imgs/handshake-heart.png'
+import informationImg from './Benefit/imgs/information.png'
+import trophyImg from './Benefit/imgs/trophy.png'
+import handshakeImg from './Benefit/imgs/handshake-heart.png'
 
 
 export const BenefitsSection = () => {
     return (
-        <div className="benefits-section">
-            <Benefit src={information} 
+        <section className="benefits-section">
+            <Benefit src={informationImg} 
             alt='information' 
             upperText='Відкритість'
-            lowerText='До допомоги всім українцям.'/>
+            lowerText='До допомоги всім українцям.'
+            />
 
-            <Benefit src={trophy}
+            <Benefit src={trophyImg}
             alt='trophy'
             upperText='Прозорість'
-            lowerText='Прозоро та чесно, від щирого серця...'/>
+            lowerText='Прозоро та чесно, від щирого серця...'
+            />
 
-            <Benefit src={handshake}
+            <Benefit src={handshakeImg}
             alt='handshake-heart'
             upperText='Оперативність'
             lowerText='Швидкі наче вітер.'
             />
-        </div>
+        </section>
     )
 }

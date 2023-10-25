@@ -1,0 +1,18 @@
+.benefit {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px 25px;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.benefit img {
+  align-self: center;
+}
+.benefit .upper-text {
+  color: #000000;
+}
+.benefit .lower-text {
+  color: #76716e;
+}/*# sourceMappingURL=Benefit.css.map */

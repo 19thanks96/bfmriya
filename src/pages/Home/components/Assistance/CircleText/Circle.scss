@@ -1,0 +1,50 @@
+@import '../../../../../shared/Typography/colors.scss';
+@function tint-color($base-color, $percentage) {
+    // Your tinting logic here
+    @return mix(white, $base-color, $percentage);
+}
+
+.wrapper-element{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    margin-bottom: 5vw;
+    font-size: 2.7vw;
+}
+.circle{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-left: 3vw;
+    gap: 3vw;
+}
+
+.circle.tint0{
+    background-color: tint-color($success, 0%);
+}
+.circle.tint10{
+    background-color: tint-color($success, 10%);
+}
+.circle.tint20{
+    background-color: tint-color($success, 20%);
+}
+.circle.tint30{
+    background-color: tint-color($success, 30%);
+}
+.circle.tint40{
+    background-color: tint-color($success, 40%);
+}
+.circle.tint50{
+    background-color: tint-color($success, 50%);
+}
+

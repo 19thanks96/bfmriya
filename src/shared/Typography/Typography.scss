@@ -1,5 +1,7 @@
+@import 'colors';
+
 .yellow{
-    background-color: yellow;
+    background-color: $warning;
 }
 
 .h2{
@@ -8,4 +10,33 @@
     font-weight: 400;
     letter-spacing: 0px;
     //font-family: "DM Serif Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.black-h2-span{
+    font-size: 9vw;
+    line-height: 15vw;
+    font-weight: 700;
+    letter-spacing: 0px;
+    display: inline;
+}
+
+.blue-h2-span{
+    font-size: 9vw;
+    line-height: 15vw;
+    font-weight: 700;
+    letter-spacing: 0px;
+    display: inline;
+    color: $primary ;
+}
+
+.second-title.primary{
+    font-size: 6vw;
+    color:$tertiary;
+    font-weight: 400;
+} 
+
+.second-title.secondary{
+    font-size: 3vw;
+    color: $secondary;
+    font-weight: 400;
 }

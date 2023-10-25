@@ -4,6 +4,8 @@ import {FullphotoWithText} from './components/FullphotoWithText/FullphotoWithTex
 import { BenefitsSection } from './components/BenefitsSection/BenefitsSection';
 import { Button } from '../../shared/Button/Button';
 import { WhoWeHelpSection } from './components/WhoWeHelpSection/WhoWeHelpSection';
+import { NewsAndEvents } from './components/NewsAndEvents/NewsAndEvents';
+import { Assistance } from './components/Assistance/Assistance';
 
 const Home = () => {
     return <>
@@ -13,7 +15,9 @@ const Home = () => {
       <FullphotoWithText/>
       <BenefitsSection/>
       <WhoWeHelpSection></WhoWeHelpSection>
-      <Button>Докладніше</Button>
+      <NewsAndEvents></NewsAndEvents>
+      <Assistance></Assistance>
+      
     </>
   };
   
