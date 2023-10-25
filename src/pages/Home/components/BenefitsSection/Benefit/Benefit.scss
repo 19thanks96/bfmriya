@@ -1,3 +1,20 @@
-.benefit-text{
-    
+.benefit{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 25px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+
+    img {
+        align-self: center;
+    }
+    .upper-text{
+        color: #000000;
+    }
+
+    .lower-text{
+        color: #666666;
+    }
 }

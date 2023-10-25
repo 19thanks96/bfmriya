@@ -1,3 +1,10 @@
-.link{
-    background-color: aqua;
+.naw-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 10px 0;
+
+    .link{
+        text-decoration: none;
+        color: black;
+    }
 }
