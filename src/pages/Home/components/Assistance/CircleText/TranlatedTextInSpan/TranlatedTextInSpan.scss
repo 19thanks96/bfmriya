@@ -1,0 +1,15 @@
+@import '../../../../../../shared/Typography/colors.scss';
+
+.TranlatedTextInSpan{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.primary-text{
+    font-weight: 700;
+    color: $tertiary;
+}
+.secondary-text{
+    font-weight: 700;
+    color: $secondary;
+}

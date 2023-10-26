@@ -4,8 +4,10 @@ button{
     border-radius: 50px;
     background-color: #eeee22;
     transition: transform 0.3s ;
-    //display: flex;
-    //justify-content: flex-start;
+    .start-position{
+        display: flex;
+        justify-content: flex-start;
+    }
 }
 
   
