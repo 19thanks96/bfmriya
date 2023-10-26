@@ -1,0 +1,34 @@
+.img-footer{
+    position: relative;
+    background-image: url('./img/mria-300x300.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    // display: flex;
+    // flex-direction: column;
+    // align-content: center;
+    // align-items: center;
+    // justify-content: space-evenly;
+    background-color: #0e3b65;
+    z-index: 1;
+}
+
+.footer-wrapper{
+width: 100vw;
+background-color: #0e3b65;
+}
+
+.underline{
+    position: relative;
+    color: #fff;
+    text-align: left;
+    margin-left: 5vw;
+    font-weight: 500;
+    margin-bottom: 3vw;
+    font-size: 5vw;
+    z-index: 2;
+    padding-bottom: 5vw;
+}

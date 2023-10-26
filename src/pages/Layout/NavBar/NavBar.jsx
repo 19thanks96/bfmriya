@@ -12,5 +12,8 @@ export const NavBar = () => (
         <NavItem>
             <Link to="/app">Blogs</Link>
         </NavItem>
+        <NavItem>
+            <Link to="/contacts">Контакти</Link>
+        </NavItem>
     </nav>
 )

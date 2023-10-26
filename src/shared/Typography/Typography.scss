@@ -29,6 +29,10 @@
     color: $primary ;
 }
 
+.wrapper-title{
+    margin-bottom: 5vw;
+}
+
 .second-title.primary{
     font-size: 6vw;
     color:$tertiary;
@@ -40,3 +44,30 @@
     color: $secondary;
     font-weight: 400;
 }
+
+
+
+.wrapper-third-title-primary{
+    font-size: 6vw;
+    color:$tertiary;
+    font-weight: 700;
+    margin-bottom: -6vw;
+    margin-left: 5vw;
+    text-align: left;
+}
+
+.wrapper-third-title-secondary{
+    font-size: 6vw;
+    color: $primary;
+    font-weight: 700;
+    margin-left: 5vw;
+    text-align: left;
+}
+
+.wrapper-third-title-third{
+    font-size: 6vw;
+    font-weight: 700;
+    margin-left: 5vw;
+    text-align: left;
+}
+

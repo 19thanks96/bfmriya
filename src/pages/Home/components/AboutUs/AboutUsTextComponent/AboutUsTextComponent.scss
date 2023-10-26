@@ -1,0 +1,30 @@
+@import '../../../../../shared/Typography/colors';
+@import '../../../../../shared/Typography/fonts';
+
+
+.About-Us-Text-Component-Ua{
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $secondary;
+    font-weight: 400;
+}
+
+.About-Us-Text-Component-En{
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+    font-weight: 400;
+}
+
+
+.last-words-about-us{
+    margin-top: 3vw;
+}
