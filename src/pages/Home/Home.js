@@ -10,11 +10,13 @@ import { CharitableResult } from './components/CharitableResult/CharitableResult
 import { HelpItsEasy } from './components/HelpItsEasy/HelpItsEasy';
 import { AboutUs } from './components/AboutUs/AboutUs';
 import { Footer } from './components/Footer/Footer';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const {t} = useTranslation()
     return <>
       <Typography variant='h2' Tag='h2'>
-          Home
+          {t("Home")}
       </Typography>
       <FullphotoWithText/>
       <BenefitsSection/>
