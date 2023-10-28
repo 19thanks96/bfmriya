@@ -5,12 +5,11 @@
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+    
     background-color: $secondary;
-    z-index: 3;
+    flex-direction: row;
+    z-index: 4;
+    align-items: center;
 
     .nav-item{
         text-decoration: none;

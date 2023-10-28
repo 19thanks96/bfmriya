@@ -1,6 +1,9 @@
 {
     "welcome" : "welcome",
     "Home":"Home",
+    "address": "Address:",
+    "address text": "Solomii Krushelnytskoi St, 15a, Kyiv, Ukraine",
+    "mail":"Mail:",
     "hi" : "hi",
     "Blogs": "Blogs",
     "mriya" : "mriya.ua",
@@ -37,13 +40,14 @@
     "ABOUT THE INTERNATIONAL CHARITABLE FOUNDATION 'MRIYA UA'":"ABOUT THE INTERNATIONAL CHARITABLE FOUNDATION 'MRIYA UA'",
     "TextAbout":"The Charitable Foundation Mriya.UA is a charitable organization created by a team of like-minded people who share a common desire. And this desire is to help UKRAINIANS! The foundation was founded by young people from Kyiv who are not affiliated with any political party, oligarchic or business structure. Our foundation carries out its volunteer activities by providing humanitarian and informational assistance.",
     "text about second section" : "The main goal of our charitable organization is to help Ukrainians who suffered during the war!",
-    
     "slogan":"The International Charitable Foundation 'Mriya UA' is committed to making every Ukrainian's dream come true.",
     "more":"More",
     "news and":"News and",
     "events":"events",
     "assistance":"Monthly assistance April",
-    "more photo" : "More photos"
+    "more photo" : "More photos",
+    "call us": "Call us:"
+    
 
 }
 

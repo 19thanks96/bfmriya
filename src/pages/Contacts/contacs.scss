@@ -1,0 +1,26 @@
+@import '../../shared/Typography/colors.scss';
+
+.contacs{
+    background-color: $secondary;
+    padding-top: 20vh;
+}
+
+.contact-section{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 3vw;
+    font-size: 6vw;
+    color: $tertiary;
+}
+
+.wrapper-contact{
+    margin-bottom: 5vw;
+}
+
+.underline-contacts{
+    color: #fff;
+    font-weight: 500;
+    font-size: 5vw;
+    padding-bottom: 5vw;
+    text-decoration-line: underline;
+}

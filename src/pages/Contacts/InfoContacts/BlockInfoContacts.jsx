@@ -1,8 +1,11 @@
-import Typography from '../../../shared/Typography/Typography'
+import { LinksTypography } from "../../../shared/Typography/LinksTypography"
 
-export const BlockInfoContats = () => (
-    <>
-        <img src="" alt=""/>
-        <Typography/>
-    </>
-)
+export const BlockInfoContats = ({ src, alt, primary, secondary, type }) => {
+    return (
+      <section className="wrapper-contact">
+        <img src={src} alt={alt} height='100px'/>
+        <LinksTypography primary={primary} secondary={secondary} type={type}/> 
+      </section>
+    );
+  };
+  
