@@ -1,7 +1,16 @@
+@import '../../../shared/Typography/colors.scss';
+
 .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    margin: 20px 0 10px 0;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: $secondary;
+    z-index: 3;
 
     .nav-item{
         text-decoration: none;

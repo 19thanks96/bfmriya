@@ -1,40 +1,26 @@
+import { useTranslation } from "react-i18next"
+
 export const TextSection = () => {
+    const {t} = useTranslation()
     return (
         <ul>
             <li>
-                Українцям на прифронтових територіях
-                <div>
-                    TO UKRAINIANS LIVILG NEAR THE FRONT LINE
-                </div>
+                {t('TO UKRAINIANS LIVILG NEAR THE FRONT LINE')}
             </li>
             <li>
-                Військовослужбовцям ЗСУ
-                <div>
-                    TO THE MILITARY OF UKRAINE</div>
-                </li>
-            <li>
-                Сім‘ям загиблих героїв
-                <div>
-                    TO THE FAMILIES OF THE FALLEN HEROES
-                </div>
+                {t('TO THE MILITARY OF UKRAINE')}
             </li>
             <li>
-                Сім‘ям з дітьми з обмеженими можливостями
-                <div>
-                    TO THE FAMILIES WITH CHILDREN WITH DISABILITIES
-                </div>
+                {t('TO THE FAMILIES OF THE FALLEN HEROES')}
             </li>
             <li>
-                Дитячим будинкам, притулкам
-                <div>
-                    TO CHILDREN'S SHELTERS
-                </div>
+                {t('TO THE FAMILIES WITH CHILDREN WITH DISABILITIE')}
             </li>
             <li>
-                Вагітним жінкам та сім'ям внутріньо переміщених осіб з дітьми
-                <div>
-                    TO PREGNANT REFUGEE WOMEN AND REFUGEE FAMILIES WITH CHILDREN
-                </div>
+                {t("TO CHILDREN'S SHELTERS")}
+            </li>
+            <li>
+                {t("TO PREGNANT REFUGEE WOMEN AND REFUGEE FAMILIES WITH CHILDREN")}
             </li>
         </ul>
     )

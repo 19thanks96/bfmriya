@@ -1,16 +1,18 @@
+import { t } from 'i18next'
+import { useTranslation } from 'react-i18next'
 import './HelpItsEasy.scss'
 import { TranslatedTextSectionOnPhoto } from './TranslatedTextSection/TranslatedTextSection'
 
-export const HelpItsEasy = () => (
+export const HelpItsEasy = () => {
+    const {t} = useTranslation()
+    return (
     <div className="wrapper-for-phototext">
         <div className='photo'>
             <TranslatedTextSectionOnPhoto 
-            primary='Подайте руку тим,хто дійсно потребує допомоги' 
-            secondary='GIVE A HAND TO THOSE WHO REALLY NEED HELP'/>
-            <TranslatedTextSectionOnPhoto 
-            primary='ДОПОМОГТИ УКРАЇНЦЯМ - ЦЕ ПРОСТО!' 
-            secondary='HELPING UKRAINIANS IS EASY!'/>
+            primary={t('GIVE A HAND TO THOSE WHO REALLY NEED HELP')} 
+            secondary={t('HELPING UKRAINIANS IS EASY')}/>
+            
 
         </div>
     </div>
-)
+)}

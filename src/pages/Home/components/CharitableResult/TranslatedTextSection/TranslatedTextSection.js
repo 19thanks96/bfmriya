@@ -1,12 +1,13 @@
+import { useTranslation } from 'react-i18next'
 import './TranslatedTextSection.scss'
 
-export const TranslatedTextSection = () => (
+export const TranslatedTextSection = () => {
+    const {t} = useTranslation()
+    return(
     <>
         <div className="primary-text-tranlated-text-section">
-        Це тисячі слів "ДЯКУЮ", декілька сотень усміхнених облич та безмежно радіючих дітей! 
+            {t(`THESE ARE THOUSANDS OF WORDS OF THANKS`)}
         </div>
-        <div className="secondary-text-tranlated-text-section">
-        THESE ARE THOUSANDS OF WORDS OF THANKS,SEVERAL HUNDRED SMILING FACES AND OVERJOYED CHILDREN!
-        </div>
+        
     </>
-)
+)}

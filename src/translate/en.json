@@ -2,15 +2,15 @@
     "welcome" : "welcome",
     "Home":"Home",
     "hi" : "hi",
-    "mriya" : "mriya.ua",
-    "who we are" : "who we are",
     "Blogs": "Blogs",
+    "mriya" : "mriya.ua",
+    "who we are" : "Who are we",
     "english":"english",
     "ukrainian":"ukrainian",
     "change to": "change to",
     "WHO WE" : "WHO WE",
     "HELP" : "HELP?",
-    "contacs":"contacs",
+    "contacs":"Contacs",
     "Openness":"Openness",
     "To help all Ukrainians":"To help all Ukrainians.",
     "Transparency":"Transparency",
@@ -33,10 +33,17 @@
     "THE RESULT OF OUR CHARITABLE FOUNDATION'S ACTIVITIES":"THE RESULT OF OUR CHARITABLE FOUNDATION'S ACTIVITIES",
     "THESE ARE THOUSANDS OF WORDS OF THANKS":"THESE ARE THOUSANDS OF WORDS OF THANKS,SEVERAL HUNDRED SMILING FACES AND OVERJOYED CHILDREN!",
     "GIVE A HAND TO THOSE WHO REALLY NEED HELP":"GIVE A HAND TO THOSE WHO REALLY NEED HELP",
-    "HELPING UKRAINIANS IS EASY!":"HELPING UKRAINIANS IS EASY!",
+    "HELPING UKRAINIANS IS EASY":"HELPING UKRAINIANS IS EASY!",
     "ABOUT THE INTERNATIONAL CHARITABLE FOUNDATION 'MRIYA UA'":"ABOUT THE INTERNATIONAL CHARITABLE FOUNDATION 'MRIYA UA'",
-    "TextAbout":"The Charitable Foundation Mriya.UA is a charitable organization created by a team of like-minded people who share a common desire. And this desire is to help UKRAINIANS! The foundation was founded by young people from Kyiv who are not affiliated with any political party, oligarchic or business structure. Our foundation carries out its volunteer activities by providing humanitarian and informational assistance.The main goal of our charitable organization is to help Ukrainians who suffered during the war!",
-    "slogan":"The International Charitable Foundation 'Mriya UA' is committed to making every Ukrainian's dream come true."
+    "TextAbout":"The Charitable Foundation Mriya.UA is a charitable organization created by a team of like-minded people who share a common desire. And this desire is to help UKRAINIANS! The foundation was founded by young people from Kyiv who are not affiliated with any political party, oligarchic or business structure. Our foundation carries out its volunteer activities by providing humanitarian and informational assistance.",
+    "text about second section" : "The main goal of our charitable organization is to help Ukrainians who suffered during the war!",
+    
+    "slogan":"The International Charitable Foundation 'Mriya UA' is committed to making every Ukrainian's dream come true.",
+    "more":"More",
+    "news and":"News and",
+    "events":"events",
+    "assistance":"Monthly assistance April",
+    "more photo" : "More photos"
 
 }
 

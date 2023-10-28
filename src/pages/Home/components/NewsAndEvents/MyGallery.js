@@ -6,6 +6,8 @@ import foto3 from '../../../../imgs/saint-mykolai.jpg'
 
 import './NewsAndEvents.scss'
 
+
+
 const images = [
     {
         original: foto,

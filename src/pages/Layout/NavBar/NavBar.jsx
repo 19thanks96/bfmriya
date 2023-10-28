@@ -25,17 +25,16 @@ export const NavBar = () => {
     <nav  className="navbar">
         <img  src={logo} alt='logo'/>
         <button onClick={handleLanguageChange}>
-                {t('change to')}{' '}
-                {language === 'ua' ? t('english') : t('ukrainian')}
-            </button>
+                {language === 'ua' ? 'EN' : 'UA'}
+        </button>
         <NavItem>
-            <Link to="/">Хто ми</Link>
+            <Link to="/">{t("who we are")}</Link>
         </NavItem>
         <NavItem>
-            <Link to="/app">Blogs</Link>
+            <Link to="/app">{t("Blogs")}</Link>
         </NavItem>
         <NavItem>
-            <Link to="/contacts">Контакти</Link>
+            <Link to="/contacts">{t("contacs")}</Link>
         </NavItem>
     </nav>
 )}

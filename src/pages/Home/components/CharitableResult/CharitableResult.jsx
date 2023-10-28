@@ -4,16 +4,18 @@ import { TranslatedTextSection } from "./TranslatedTextSection/TranslatedTextSec
 import foto from '../../../../imgs/mriaText-300x300.jpg'
 import { Button } from "../../../../shared/Button/Button";
 import { PhotoDesk } from "./PhotoDesk/PhotoDesk";
+import { useTranslation } from "react-i18next";
 
-export const CharitableResult = () => (
+export const CharitableResult = () => {
+    const {t} = useTranslation()
+    return(
     <>
         <ThirdTitle 
-        primary='РЕЗУЛЬТАТ ДІЯЛЬНОСТІ НАШОГО БЛАГОДІЙНОГО ФОНДУ' 
-        secondary={`THE RESULT OF OUR CHARITABLE FOUNDATION'S ACTIVITIES`}>
+        secondary={t(`THE RESULT OF OUR CHARITABLE FOUNDATION'S ACTIVITIES`)}>
         </ThirdTitle>
         <TranslatedTextSection/>
         <FullSizeImg src={foto} alt='slogan of Ukraine volunteers'/>
-        <Button>Більше фото</Button>
+        <Button>{t('more photo')}</Button>
         <PhotoDesk></PhotoDesk>
     </>
-)
+)}

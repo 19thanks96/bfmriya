@@ -11,7 +11,7 @@ export const WhoWeHelpSection = () => {
             <Title primary={t("WHO WE")}  
             secondary={t("HELP")}/>
             <TextSection/>
-            <Button>Докладніше</Button>
+            <Button>{t('more')}</Button>
         </section>
     )
 }
