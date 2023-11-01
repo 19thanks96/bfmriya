@@ -1,4 +1,3 @@
-import { t } from 'i18next'
 import { useTranslation } from 'react-i18next'
 import './HelpItsEasy.scss'
 import { TranslatedTextSectionOnPhoto } from './TranslatedTextSection/TranslatedTextSection'

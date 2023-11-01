@@ -1,4 +1,3 @@
-import { FullSizeImg } from "../../../../shared/FullSizeImg/FullSizeImg";
 import { ThirdTitle } from "../../../../shared/Title/ThirdTitle";
 import { TranslatedTextSection } from "./TranslatedTextSection/TranslatedTextSection";
 import { Button } from "../../../../shared/Button/Button";

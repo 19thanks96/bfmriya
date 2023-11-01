@@ -47,3 +47,31 @@
 .circle.tint50{
     background-color: tint-color($success, 50%);
 }
+
+@media (min-width: 700px) {
+    .assistance-item-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+        gap: 10px;
+    }
+    .TranlatedTextInSpan{
+        font-size: 20px;
+    }
+    .circle.tint0,
+    .circle.tint10,
+    .circle.tint20,
+    .circle.tint30,
+    .circle.tint40,
+    .circle.tint50{
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+    }
+    .wrapper-element{
+        gap: 10px;
+        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+}

@@ -7,12 +7,10 @@ import { CharitableResult } from './components/CharitableResult/CharitableResult
 import { HelpItsEasy } from './components/HelpItsEasy/HelpItsEasy';
 import { AboutUs } from './components/AboutUs/AboutUs';
 import { Footer } from './components/Footer/Footer';
-import { useTranslation } from 'react-i18next';
 import { MainBlock } from './components/MainBlock/MainBlock';
 
 const Home = () => {
-  const {t} = useTranslation()
-    return <>
+    return <section className='wrapper-page'>
       <MainBlock/>
       <BenefitsSection/>
       <WhoWeHelpSection></WhoWeHelpSection>
@@ -22,7 +20,7 @@ const Home = () => {
       <HelpItsEasy/>
       <AboutUs/>
       <Footer/>
-    </>
+    </section>
   };
   
   export default Home;

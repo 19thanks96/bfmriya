@@ -1,11 +1,13 @@
 import GoogleMap from "./GoogleMap";
 import { InfoContacts } from "./InfoContacts/InfoContacts";
 import './contacs.scss'
+import { Footer } from "./Footer";
 
 
 export const Contacts = () => (
-    <section className="contacs">
+    <section className="contacs wrapper-page">
         <InfoContacts/>
         <GoogleMap></GoogleMap>
+        <Footer/>
     </section>
 )

@@ -1,5 +1,3 @@
-import { Button } from "../../../../../shared/Button/Button";
-
 export const MainBlockTextSection = ({primary, secondary, thierd}) => (
     <>
         <span className="primary-text-main-block">

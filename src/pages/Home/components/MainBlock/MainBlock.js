@@ -1,4 +1,3 @@
-import { t } from 'i18next'
 import { useTranslation } from 'react-i18next'
 import { MainBlockTextSection } from './MainBlockTextSection/MainBlockTextSection'
 import './MainBlock.scss'

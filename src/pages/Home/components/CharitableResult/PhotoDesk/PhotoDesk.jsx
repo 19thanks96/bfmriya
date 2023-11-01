@@ -1,4 +1,3 @@
-import { FullSizeImg } from "../../../../../shared/FullSizeImg/FullSizeImg";
 import React from "react";
 import ImageGallery from "react-image-gallery";
 import foto from '../../../../../imgs/mriaText-300x300.jpg'
