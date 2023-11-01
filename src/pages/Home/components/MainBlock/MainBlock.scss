@@ -1,0 +1,70 @@
+@import '../../../../shared/Typography/colors.scss';
+@import '../../../../shared/Typography/fonts.scss';
+
+.main-photo{
+    position: relative;
+    background-image: url(../../../../imgs/childrens-1024x576.jpg);
+    background-size: 175%;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.main-photo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1vw;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+
+.primary-text-main-block{
+    text-align: left;
+    margin: 0 0 0 5vw;
+    font-family: "Questrial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 6vw;
+    color: $white;
+    font-weight: 800;
+    z-index: 2;
+    position: relative;
+    top: 5vh;
+}
+.secondary-text-main-block{
+    text-align: left;
+    margin: 0 0 0 2vw;
+    font-family: "Questrial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 6vw;
+    color: $warning;
+    font-weight: 800;
+    z-index: 2;
+    position: relative;
+    top: 5vh;
+}
+
+.thierd-text-main-block{
+    display: none;
+    text-align: left;
+    margin: 0 0 5vw 5vw;
+    font-family: "Questrial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 3vw;
+    color: $white;
+    font-weight: 600;
+    z-index: 2;
+    position: relative;
+    top: 10vh;
+}
+
+@media (min-width: 700px) {
+    .thierd-text-main-block{
+        display: block;
+    }
+    .main-photo::before {
+        bottom: 0;
+    }
+  }

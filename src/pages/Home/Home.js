@@ -1,6 +1,4 @@
 import './Home.scss';
-import {Typography} from '../../shared/Typography/Typography'
-import {FullphotoWithText} from './components/FullphotoWithText/FullphotoWithText'
 import { BenefitsSection } from './components/BenefitsSection/BenefitsSection';
 import { WhoWeHelpSection } from './components/WhoWeHelpSection/WhoWeHelpSection';
 import { NewsAndEvents } from './components/NewsAndEvents/NewsAndEvents';
@@ -10,14 +8,12 @@ import { HelpItsEasy } from './components/HelpItsEasy/HelpItsEasy';
 import { AboutUs } from './components/AboutUs/AboutUs';
 import { Footer } from './components/Footer/Footer';
 import { useTranslation } from 'react-i18next';
+import { MainBlock } from './components/MainBlock/MainBlock';
 
 const Home = () => {
   const {t} = useTranslation()
     return <>
-      <Typography variant='h2' Tag='h2'>
-          {t("Home")}
-      </Typography>
-      <FullphotoWithText/>
+      <MainBlock/>
       <BenefitsSection/>
       <WhoWeHelpSection></WhoWeHelpSection>
       <NewsAndEvents></NewsAndEvents>

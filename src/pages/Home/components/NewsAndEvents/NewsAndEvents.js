@@ -6,10 +6,10 @@ import { MyGallery } from "./MyGallery"
 export const NewsAndEvents = () => {
     const {t} = useTranslation()
     return (
-        <>
+        <section>
         <Title primary={t('news and')} secondary={t('events')}/>
         <MyGallery/>
         <Button>{t('more')}</Button>
-        </>
+        </section>
     )
 }

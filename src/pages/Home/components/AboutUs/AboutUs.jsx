@@ -5,8 +5,8 @@ import { AboutUsTextComponent } from "./AboutUsTextComponent/AboutUsTextComponen
 export const AboutUs = () => {
     const {t} = useTranslation()
     return(
-    <>
+    <section>
         <Typography Tag='h2' variant='wrapper-third-title-primary'>{t(`ABOUT THE INTERNATIONAL CHARITABLE FOUNDATION 'MRIYA UA'`)}</Typography>
         <AboutUsTextComponent/>
-    </>
+    </section>
 )}

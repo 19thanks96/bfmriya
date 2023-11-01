@@ -1,4 +1,7 @@
 import { FullSizeImg } from "../../../../../shared/FullSizeImg/FullSizeImg";
+import React from "react";
+import ImageGallery from "react-image-gallery";
+import foto from '../../../../../imgs/mriaText-300x300.jpg'
 import photo from './img/aid-clothes.jpg'
 import photo2 from './img/saint-mykolai-and-children.jpg'
 import photo3 from './img/save-children-in-school.jpg'
@@ -10,17 +13,67 @@ import photo8 from './img/aid-for-people.jpg'
 import photo9 from './img/aid-heavy-millitary.jpg'
 import photo10 from './img/aid-old-woman.jpg'
 
-export const PhotoDesk = () => (
-    <>
-        <FullSizeImg src={photo} alt='aid clothes'></FullSizeImg>
-        <FullSizeImg src={photo2} alt='saint mykolai and children'></FullSizeImg>
-        <FullSizeImg src={photo3} alt='save the children at school and their school'></FullSizeImg>
-        <FullSizeImg src={photo4} alt='congratulation with new year'></FullSizeImg>
-        <FullSizeImg src={photo5} alt='help ZSU in camouflage'></FullSizeImg>
-        <FullSizeImg src={photo6} alt='aid near Herson'></FullSizeImg>
-        <FullSizeImg src={photo7} alt='work with big corporation like Ashan'></FullSizeImg>
-        <FullSizeImg src={photo8} alt='aid for old people'></FullSizeImg>
-        <FullSizeImg src={photo9} alt='aid heavy millitary'></FullSizeImg>
-        <FullSizeImg src={photo10} alt='aid old humans'></FullSizeImg>
-    </>
-)
+const images = [
+    {
+        original: foto,
+        originalAlt: 'slogan of Ukraine volunteers',
+        originalTitle : 'slogan of Ukraine volunteers'
+    },
+    {
+        original: photo,
+        originalAlt: 'aid clothes',
+        originalTitle : 'aid clothes'
+    },
+    {
+        original: photo2,
+        originalAlt: 'saint mykolai and children',
+        originalTitle : 'saint mykolai and children'
+    },
+    {
+        original: photo3,
+        originalAlt: 'save the children at school and their school',
+        originalTitle : 'save the children at school and their school'
+    },
+    {
+        original: photo4,
+        originalAlt: 'congratulation with new year',
+        originalTitle : 'congratulation with new year'
+    },
+    {
+        original: photo5,
+        originalAlt: 'help ZSU in camouflage',
+        originalTitle : 'help ZSU in camouflage'
+    },
+    {
+        original: photo6,
+        originalAlt: 'aid near Herson',
+        originalTitle : 'aid near Herson'
+    },
+    {
+        original: photo7,
+        originalAlt: 'work with big corporation like Ashan',
+        originalTitle : 'work with big corporation like Ashan'
+    },
+    {
+        original: photo8,
+        originalAlt: 'aid for old people',
+        originalTitle : 'aid for old people'
+    },
+    {
+        original: photo9,
+        originalAlt: 'aid heavy millitary',
+        originalTitle : 'aid heavy millitary'
+    },
+    {
+        original: photo10,
+        originalAlt: 'aid old humans',
+        originalTitle : 'aid old humans'
+    },
+
+]
+
+export class PhotoDesk extends React.Component {
+    render() {
+      return <ImageGallery items={images} className='huyeta'/>;
+    }
+  }

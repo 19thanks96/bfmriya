@@ -6,10 +6,10 @@ import { AssistanceItemList } from "./CircleText/AssistanceItemList"
 export const Assistance = () => {
     const {t} = useTranslation()
     return (
-        <>
+        <section>
             <SecondTitle 
             primary={t('WHAT KIND OF ASSISTANCE DO WE PROVIDE')}/>
             <AssistanceItemList/>
-        </>
+        </section>
     )
 }

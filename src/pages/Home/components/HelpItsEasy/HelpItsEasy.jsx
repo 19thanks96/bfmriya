@@ -6,13 +6,11 @@ import { TranslatedTextSectionOnPhoto } from './TranslatedTextSection/Translated
 export const HelpItsEasy = () => {
     const {t} = useTranslation()
     return (
-    <div className="wrapper-for-phototext">
+    <section className="wrapper-for-phototext">
         <div className='photo'>
             <TranslatedTextSectionOnPhoto 
             primary={t('GIVE A HAND TO THOSE WHO REALLY NEED HELP')} 
             secondary={t('HELPING UKRAINIANS IS EASY')}/>
-            
-
         </div>
-    </div>
+    </section>
 )}
