@@ -33,9 +33,9 @@ export const NavBar = () => {
     return(
     <nav  className="navbar">
         <img  src={logo} alt='logo'/>
-        <button onClick={handleLanguageChange}>
+        <div className="change-lang" onClick={handleLanguageChange}>
                 {language === 'ua' ? 'EN' : 'UA'}
-        </button>
+        </div>
         <div className={`header__menu__menu ${menuOpen ? '_active' : ''}`} onClick={toggleMobileMenu}>
             <div className={`menu__icon ${menuOpen ? '_active' : ''}`}>
                 <span></span>
