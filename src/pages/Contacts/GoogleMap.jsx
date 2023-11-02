@@ -34,6 +34,12 @@ function GoogleMapComponent() {
     setMap(null)
   }, [])
 
+  if(containerStyle.width > 700) {
+    containerStyle.width /= 2
+    containerStyle.height /= 2
+
+  }
+
   return isLoaded ? (
       <GoogleMap
         mapContainerStyle={containerStyle}
@@ -41,6 +47,7 @@ function GoogleMapComponent() {
         zoom={10}
         onLoad={onLoad}
         onUnmount={onUnmount}
+        mapContainerClassName='google-map'
       >
         <Marker position={center}/> 
         <></>

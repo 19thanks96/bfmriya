@@ -4,24 +4,24 @@ export const TextSection = () => {
     const {t} = useTranslation()
     return (
         <ul>
-            <li>
+            <div>
                 {t('TO UKRAINIANS LIVILG NEAR THE FRONT LINE')}
-            </li>
-            <li>
+            </div>
+            <div>
                 {t('TO THE MILITARY OF UKRAINE')}
-            </li>
-            <li>
+            </div>
+            <div>
                 {t('TO THE FAMILIES OF THE FALLEN HEROES')}
-            </li>
-            <li>
+            </div>
+            <div>
                 {t('TO THE FAMILIES WITH CHILDREN WITH DISABILITIE')}
-            </li>
-            <li>
+            </div>
+            <div>
                 {t("TO CHILDREN'S SHELTERS")}
-            </li>
-            <li>
+            </div>
+            <div>
                 {t("TO PREGNANT REFUGEE WOMEN AND REFUGEE FAMILIES WITH CHILDREN")}
-            </li>
+            </div>
         </ul>
     )
 }

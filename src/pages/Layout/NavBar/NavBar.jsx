@@ -8,6 +8,8 @@ import useLocalStorage from "../../../hooks/use-localstorage";
 import i18n from "../../../i18n";
 import  {useTranslation}  from "react-i18next";
 import { useState } from "react";
+import { Link as RouterLink} from "react-router-dom";
+
 
 
 export const NavBar = () => {
@@ -28,11 +30,11 @@ export const NavBar = () => {
     }
 
     const toggleMobileMenu = () => {
-        setMenuOpen(!menuOpen); // Toggle the mobile menu state
+        setMenuOpen(!menuOpen); 
       }
     return(
     <nav  className="navbar">
-        <img  src={logo} alt='logo'/>
+            <RouterLink to="/"><img  src={logo} alt='logo'/></RouterLink>
         <div className="change-lang" onClick={handleLanguageChange}>
                 {language === 'ua' ? 'EN' : 'UA'}
         </div>

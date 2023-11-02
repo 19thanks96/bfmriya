@@ -5,9 +5,11 @@ import { Footer } from "./Footer";
 
 
 export const Contacts = () => (
-    <section className="contacs wrapper-page">
+    <section >
+        <div className="contacs wrapper-page">
         <InfoContacts/>
         <GoogleMap></GoogleMap>
+        </div>
         <Footer/>
     </section>
 )

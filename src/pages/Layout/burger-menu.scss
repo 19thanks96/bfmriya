@@ -60,9 +60,14 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
-    padding: 100px 30px 30px 30px;
-    transition: left 0.3s ease 0s;
+    padding: 100px 0 0 0;
+    animation: burger 0.5 ease 0s;
     overflow: auto;
+}
+
+@keyframes burger {
+    from {left: -200%;}
+    to {left: 0;}
 }
 
 .menu__body._active {
@@ -74,8 +79,6 @@
     align-items: center;
     flex-wrap: nowrap;
 }
-
-
 
 .link{
     
