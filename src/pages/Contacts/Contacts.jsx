@@ -10,6 +10,6 @@ export const Contacts = () => (
         <InfoContacts/>
         <GoogleMap></GoogleMap>
         </div>
-        <Footer/>
+        <Footer />
     </section>
 )

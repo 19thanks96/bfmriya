@@ -34,7 +34,7 @@ export const NavBar = () => {
       }
     return(
     <nav  className="navbar">
-            <RouterLink to="/"><img  src={logo} alt='logo'/></RouterLink>
+            <RouterLink to="/"><img  src={logo} alt='logo' height='50px' width='50px'/></RouterLink>
         <div className="change-lang" onClick={handleLanguageChange}>
                 {language === 'ua' ? 'EN' : 'UA'}
         </div>

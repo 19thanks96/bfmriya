@@ -80,14 +80,25 @@
     flex-wrap: nowrap;
 }
 
-.link{
-    
+.link {
     font-size: 10vw;
     font-weight: 700;
     text-decoration: none;
     margin-bottom: 5vw;
+    
+    &:hover {
+        animation-duration: 0.3s;
+        color: red;
+        font-weight: 800;
+    }
 }
 
-.link:hover{
-    color: red;
+@media (min-width: 700px) {
+    .link{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .menu__body._active{
+        align-items: flex-end;
+    }
 }

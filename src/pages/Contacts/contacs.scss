@@ -1,8 +1,7 @@
 @import '../../shared/Typography/colors.scss';
 
 .contacs{
-    background-color: $secondary;
-    padding-top: 20vh;
+    background-color: $success;
 }
 
 .contact-section{
@@ -44,7 +43,6 @@
     .contacs.wrapper-page{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-bottom: 20px;
     }
     .wrapper-contact img{
         width: 50px;
@@ -64,7 +62,7 @@
     }
     .footer-contacts{
         margin: 0px;
-        padding: 0px;
+        padding: 20px 0 0 0;
 
     }
 }
