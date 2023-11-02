@@ -47,7 +47,7 @@ export const NavBar = () => {
                     <Link to="/">{t("who we are")}</Link>
                 </NavItem>
                 <NavItem>
-                    <Link to="/app">{t("Blogs")}</Link>
+                    <Link to="/volunteers">{t("ourvolunteers")}</Link>
                 </NavItem>
                 <NavItem>
                     <Link to="/contacts">{t("contacs")}</Link>

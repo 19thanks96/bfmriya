@@ -73,6 +73,6 @@ const images = [
 
 export class PhotoDesk extends React.Component {
     render() {
-      return <ImageGallery items={images} className='huyeta'/>;
+      return <ImageGallery items={images} autoPlay={true}/>;
     }
   }

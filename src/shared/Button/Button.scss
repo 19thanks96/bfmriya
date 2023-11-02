@@ -11,19 +11,3 @@ button{
     }
 }
 
-  
-  button:hover {
-    animation-duration: 3s;
-    animation-name: scale;
-    animation-direction: alternate; 
-  }
-  
-  @keyframes scale {
-    0% {
-      transform: scale(1);
-    }
-  
-    100% {
-      transform: scale(1.25);
-    }
-  }

@@ -8,3 +8,9 @@
     color: #fff;
     font-size: 5vw;
 }
+
+@media (min-width: 700px) {
+    .contacts{
+        margin-top: 0;
+    }
+}

@@ -1,7 +1,5 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+@import './css-reset.css';
+@import '~react-image-gallery/styles/css/image-gallery.css';
 
 body {
   margin: 0;
@@ -24,3 +22,4 @@ code {
 .wrapper-page {
   padding-top: 60px;
 }
+

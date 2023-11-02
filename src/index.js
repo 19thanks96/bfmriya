@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import App from './pages/App';
+import Volunteers from './pages/Volunteers/Volunteers';
 import './i18n'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout/Layout";
@@ -23,7 +23,7 @@ export default function Main() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="app" element={<App />} />
+          <Route path="/volunteers" element={<Volunteers />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="*" element={<NoPage />} />
         </Route>

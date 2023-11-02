@@ -1,0 +1,28 @@
+@import '../../shared/Typography/colors.scss';
+
+.volunteers-section{
+
+}
+
+.volunteer-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+.all-volunteers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-volunteers{
+    font-size: 3vw;
+    margin: 20px 0;
+}
+
+.volunteers-job-title{
+    font-size: 2vw;
+    font-weight: 500;
+}
