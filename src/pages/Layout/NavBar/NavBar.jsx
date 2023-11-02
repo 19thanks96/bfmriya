@@ -52,6 +52,9 @@ export const NavBar = () => {
                 <NavItem>
                     <Link to="/contacts">{t("contacs")}</Link>
                 </NavItem>
+                <NavItem>
+                    <Link to="/partners">{t("partners")}</Link>
+                </NavItem>
             </nav>
         </div>
     </nav>

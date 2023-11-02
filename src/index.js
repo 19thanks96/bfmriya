@@ -9,6 +9,7 @@ import Home from "./pages/Home/Home";
 import NoPage from "./pages/NoPage";
 import { Contacts } from './pages/Contacts/Contacts';
 import logo from './imgs/mria110-110.jpg'
+import Partners from './pages/Partners/Partners';
 
 export default function Main() {
   useEffect(() => {
@@ -25,6 +26,8 @@ export default function Main() {
           <Route index element={<Home />} />
           <Route path="/volunteers" element={<Volunteers />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/partners" element={<Partners />} />
+
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
