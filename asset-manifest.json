@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bfmriya/static/css/main.92a436cb.css",
-    "main.js": "/bfmriya/static/js/main.64b056e4.js",
+    "main.js": "/bfmriya/static/js/main.1b210b2a.js",
     "static/media/child-making-heart-with-hands.png": "/bfmriya/static/media/child-making-heart-with-hands.78d7da30dd3a36e8a286.png",
     "static/media/offerta-ua.pdf": "/bfmriya/static/media/offerta-ua.7c86d93a5aeba42c2e3c.pdf",
     "static/media/aid-for-people.jpg": "/bfmriya/static/media/aid-for-people.d5667ce3e6e9bdc0e92c.jpg",
@@ -29,10 +29,10 @@
     "index.html": "/bfmriya/index.html",
     "static/media/telegram_logo_icon_144811.svg": "/bfmriya/static/media/telegram_logo_icon_144811.43af0740171b6649822b95b0df42ac93.svg",
     "main.92a436cb.css.map": "/bfmriya/static/css/main.92a436cb.css.map",
-    "main.64b056e4.js.map": "/bfmriya/static/js/main.64b056e4.js.map"
+    "main.1b210b2a.js.map": "/bfmriya/static/js/main.1b210b2a.js.map"
   },
   "entrypoints": [
     "static/css/main.92a436cb.css",
-    "static/js/main.64b056e4.js"
+    "static/js/main.1b210b2a.js"
   ]
 }
