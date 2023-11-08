@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import Volunteers from './pages/Volunteers/Volunteers';
 import './i18n'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Layout from "./pages/Layout/Layout";
 import Home from "./pages/Home/Home";
 import NoPage from "./pages/NoPage";
@@ -20,18 +20,17 @@ export default function Main() {
     document.getElementsByTagName('head')[0].appendChild(link);
   }, []);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/volunteers" element={<Volunteers />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/partners" element={<Partners />} />
-
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

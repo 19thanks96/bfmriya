@@ -11,10 +11,6 @@
 }
 
 .all-volunteers{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .title-volunteers{
@@ -25,4 +21,27 @@
 .volunteers-job-title{
     font-size: 2vw;
     font-weight: 500;
+}
+
+.volunteer-obj{
+    width: 100px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid $tertiary;
+}
+@media (min-width: 500px) {
+    .volunteer-obj{
+        width: 150px;
+        border-radius: 15px;
+        margin: 30px;
+    }
+}
+
+@media (min-width: 700px) {
+    .volunteer-obj{
+        width: 200px;
+        border-radius: 20px;
+        margin: 40px;
+
+    }
 }
