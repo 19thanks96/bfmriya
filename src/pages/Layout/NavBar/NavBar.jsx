@@ -56,6 +56,9 @@ export const NavBar = () => {
                     <Link to="/partners">{t("partners")}</Link>
                 </NavItem>
                 <NavItem>
+                    <Link to="/awards">{t("awards")}</Link>
+                </NavItem>
+                <NavItem>
                     <Link to="/donation" menuOpen={menuOpen.toString()}>{t("donation")}</Link>
                 </NavItem>
             </nav>
