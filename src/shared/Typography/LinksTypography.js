@@ -1,11 +1,12 @@
 export const LinksTypography = ({primary, secondary, type}) => {
     if(type) {
-        return(
+        return(<>
             <div className="contact-section">
             {primary}
+            </div>
             <a href={`${type + secondary}`}>
                 <div className="underline-contacts">{secondary}</div></a>
-            </div>
+            </>
         )
     }
     if(!type) {

@@ -15,6 +15,5 @@ export const CharitableResult = () => {
         <TranslatedTextSection/>
         
         <PhotoDesk></PhotoDesk>
-        <Button>{t('more photo')}</Button>
     </section>
 )}
