@@ -11,12 +11,9 @@
     z-index: 4;
     align-items: center;
     border-bottom: 1px solid black;
-    justify-content: space-between;
+    justify-content: space-around;
     max-height: 110px;
     height: 60px;
-    a img{
-        margin-left: 20px;
-    }
 }
   
 .change-lang{
@@ -33,7 +30,6 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  transform: translate(-30%, 0);
 }
 
 .change-lang:before {
