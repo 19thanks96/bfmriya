@@ -1,9 +1,11 @@
-import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
+import { PayPalScriptProvider} from "@paypal/react-paypal-js";
 import { SetPayPal } from "./SetPayPal";
+
+
 export const PayPal = ({menuOpen}) => {
     const initialOptions = {
-        clientId: process.env.CLIENT_ID || 'test',
-        // intent: "capture",
+        clientId: process.env.REACT_APP_PAYPAL_CLIENT_API_KEY,
+        intent: "capture",
     };
     
     return(
