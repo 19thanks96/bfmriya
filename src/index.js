@@ -12,6 +12,7 @@ import logo from './imgs/mria110-110.jpg'
 import Partners from './pages/Partners/Partners';
 import { Donation } from './pages/Donation/Donation';
 import { Awards } from './pages/Awards/Awards';
+import { Projects } from './pages/Projects/Projects';
 
 export default function Main() {
   useEffect(() => {
@@ -31,6 +32,7 @@ export default function Main() {
           <Route path="/partners" element={<Partners />} />
           <Route path="/donation" element={<Donation />} />
           <Route path="/awards" element={<Awards />} />
+          <Route path="/projects" element={<Projects />} />
 
 
           <Route path="*" element={<NoPage />} />

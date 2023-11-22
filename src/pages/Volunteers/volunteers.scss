@@ -23,11 +23,28 @@
     font-weight: 500;
 }
 
-.volunteer-obj{
+@keyframes autoRotate {
+    from {
+      transform: rotate3d(0, 1, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(0, 1, 0, 360deg);
+    }
+  }
+  
+  .volunteer-obj {
     width: 100px;
     border-radius: 10px;
     margin: 20px;
     border: 2px solid $tertiary;
+    background-position: 80%;
+    animation: autoRotate 10s linear infinite;
+  
+    &:hover {
+        animation: none; 
+        transform: rotate3d(1, 1, 1, 0deg); 
+        transition: transform 0.5s;
+    }
 }
 @media (min-width: 500px) {
     .volunteer-obj{

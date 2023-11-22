@@ -31,6 +31,6 @@ export class MyGallery extends React.Component {
   render() {
     return <ImageGallery 
       items={images} 
-    autoPlay={true}/>;
+    autoPlay={true} className='my-gallery'/>;
   }
 }

@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { VolunteersSection } from "./VolunteersSection";
 import './volunteers.scss'
 import  images from "../../imgs/volunteers/Volunteers.img.js";
+import { Typography } from "../../shared/Typography/Typography";
 
 function Volunteers() {
   const {t} = useTranslation()
@@ -9,7 +10,7 @@ function Volunteers() {
 
   return (
     <section className="volunteers wrapper-page">
-      <div className="title-volunteers">{t('ourvolunteers')}</div>
+      <Typography variant="h2" Tag='h2'>{t('ourvolunteers')}</Typography>
       <div className='all-volunteers'>
       {imageKeys.map((key) => (
         <img key={key} src={images[key]} alt={`Volunteer ${key}`} className='volunteer-obj'/>

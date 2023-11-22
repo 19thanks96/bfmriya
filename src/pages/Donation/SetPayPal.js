@@ -66,6 +66,7 @@ export const SetPayPal = () => {
                     createOrder={createOrder}
                     onApprove={onApprove}
                     style={style}
+                    className='my-paypal-buttons'
                 />
         </>
     )

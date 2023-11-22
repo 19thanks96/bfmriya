@@ -9,7 +9,7 @@ export const NewsAndEvents = () => {
         <section>
         <Title primary={t('news and')} secondary={t('events')}/>
         <MyGallery/>
-        <Button>{t('more')}</Button>
+        <Button href='/projects'>{t('more')}</Button>
         </section>
     )
 }

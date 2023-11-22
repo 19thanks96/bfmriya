@@ -5,6 +5,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    
 }
 
 
@@ -21,6 +22,25 @@
     word-wrap: break-word;
     white-space: normal;
     overflow-wrap: anywhere;
+    position: relative;
+    overflow: hidden;
+    &::before{
+        content: "";
+        position: absolute;
+        top: -100px;
+        bottom: -100px;
+        left: -300px;
+        width: 10px;
+        rotate: 35deg;
+        background-color: white;
+        
+    }
+    &:hover::before{
+        
+            left:calc(200% + 30px);
+            transition: left 1s;
+    
+    }
 }
 
 @media (min-width : 700px) {
