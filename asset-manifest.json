@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/bfmriya/static/css/main.bdf31962.css",
-    "main.js": "/bfmriya/static/js/main.1f69fc20.js",
+    "main.css": "/bfmriya/static/css/main.7d1f8ce4.css",
+    "main.js": "/bfmriya/static/js/main.135a5ec6.js",
     "static/media/child-making-heart-with-hands.png": "/bfmriya/static/media/child-making-heart-with-hands.78d7da30dd3a36e8a286.png",
     "static/media/acknowledgment.pdf": "/bfmriya/static/media/acknowledgment.a2f7ba11977fdf84997b.pdf",
     "static/media/offerta-ua.pdf": "/bfmriya/static/media/offerta-ua.7c86d93a5aeba42c2e3c.pdf",
     "static/media/acknowledgment2.pdf": "/bfmriya/static/media/acknowledgment2.1ca16d8f3a5ceb48178a.pdf",
+    "static/media/help-childrens.png": "/bfmriya/static/media/help-childrens.2c15640ddddfb0227536.png",
     "static/media/11.jpg": "/bfmriya/static/media/11.e6f8f987e1cb241db218.jpg",
     "static/media/3.jpg": "/bfmriya/static/media/3.647251ae144bd7005cd9.jpg",
     "static/media/aid-for-people.jpg": "/bfmriya/static/media/aid-for-people.d5667ce3e6e9bdc0e92c.jpg",
@@ -18,6 +19,7 @@
     "static/media/congratulation-newyear.jpg": "/bfmriya/static/media/congratulation-newyear.1ccd42781f59b06f6597.jpg",
     "static/media/4.jpg": "/bfmriya/static/media/4.c5048f06993514763287.jpg",
     "static/media/10.jpg": "/bfmriya/static/media/10.521075393ca64541d0a8.jpg",
+    "static/media/animal-help.jpg": "/bfmriya/static/media/animal-help.334d2b6ffab17427b4a8.jpg",
     "static/media/5.jpg": "/bfmriya/static/media/5.61412e810adb4e78973c.jpg",
     "static/media/save-children-in-school.jpg": "/bfmriya/static/media/save-children-in-school.5f8f900daa84dd4e41fe.jpg",
     "static/media/aid-clothes.jpg": "/bfmriya/static/media/aid-clothes.9f10aadf418127b9f17c.jpg",
@@ -43,11 +45,11 @@
     "static/media/instagram_black_logo_icon_147122.svg": "/bfmriya/static/media/instagram_black_logo_icon_147122.ef15be82f3869bb7096aa13933b0460a.svg",
     "index.html": "/bfmriya/index.html",
     "static/media/telegram_logo_icon_144811.svg": "/bfmriya/static/media/telegram_logo_icon_144811.43af0740171b6649822b95b0df42ac93.svg",
-    "main.bdf31962.css.map": "/bfmriya/static/css/main.bdf31962.css.map",
-    "main.1f69fc20.js.map": "/bfmriya/static/js/main.1f69fc20.js.map"
+    "main.7d1f8ce4.css.map": "/bfmriya/static/css/main.7d1f8ce4.css.map",
+    "main.135a5ec6.js.map": "/bfmriya/static/js/main.135a5ec6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdf31962.css",
-    "static/js/main.1f69fc20.js"
+    "static/css/main.7d1f8ce4.css",
+    "static/js/main.135a5ec6.js"
   ]
 }
