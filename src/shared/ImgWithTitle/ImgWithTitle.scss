@@ -1,13 +1,101 @@
 .img-with-title{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
     margin: 30px 0 0 0;
+    text-align: left;
     flex: 1;
+    text-decoration: none;
+    padding: 20px;
+
+    > div:first-child {
+        text-align: center;
+        align-self: center;
+        font-size: 23px;
+    }
+    >div:nth-child(2) {
+        text-align: center;
+        align-self: center;
+    }
+    a,
+    img{
+        align-self: center;
+    }
+}
+
+.ImgWithTitle{
+    display: flex;
+    flex-direction: column;
 }
 
 .fullphoto{
     width: 80%;
     border-radius: 10px;
 }
+.zigriy.projectDescription2,
+.zigriy.projectDescription3,
+.zigriy.projectDescription4,
+.zigriy.projectDescription5,
+.help.projectDescription3,
+.help.projectDescription4,
+.help.projectDescription5,
+.help.projectDescription6,
+.help.projectDescription7,
+.help.projectDescription8{
+    margin: -10px 0;
+    align-self: flex-start;
+}
+@media (min-width:700px) {
+    .ImgWithTitle{
+        flex-direction: row;
+        > div:nth-child(1) {
+            background-color: rgb(74, 74, 252);
+        }
+        > div:nth-child(2) {
+            background-color: rgb(247, 247, 81);
+        }
+        > div:nth-child(3) {
+            background-color: rgb(49, 155, 49);
+        }
+        > div:nth-child(4) {
+            background-color: rgb(190, 46, 46);
+        }
+        .img-with-title{
+            flex-wrap: wrap;
+            border-radius: 10px;
+            padding: 50px 20px;
+            div{
+                display: none;
+            }
+            @keyframes bigger{
+                0%{
+                    scale: 1;
+                }
+                50%{
+                    scale: 1.1;
+                }
+                100%{
+                    scale: 1;
+                }
+            }
+            img{
+                animation: bigger 1s  ease-in-out infinite;
+                min-width: 100px;
+                min-height: 100px;
+            }
+            &:hover{
+                flex: auto;
+                div{
+                    display: block;
+                }
+                img{
+                    width: 90%;
+                    animation: none;
+                    scale: 1;
+                }
+            }
+        }
+    }
+}
+

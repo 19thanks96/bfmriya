@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next"
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js";
 
 export const SetPayPal = () => {
+    const {t} = useTranslation()
     const [{ options }, dispatch] = usePayPalScriptReducer();
     const [money, setMoney] = useState(1)
     const [currency, setCurrency] = useState('USD')
@@ -54,13 +56,20 @@ export const SetPayPal = () => {
     return (
         <>
         <div className="donation-inputs">
-            <input placeholder="0.00" type="text" inputMode="decimal" role="input" onChange={handleMoneyChange}></input>
-            <select value={currency} onChange={onCurrencyChange}>
-                <option value="USD">United States dollar</option>
-                <option value="EUR">Euro</option>
-                <option value="GBP">GBP</option>
-                <option value="PLN">PLN</option>
-            </select>
+            <div className="donation-inputs-element">
+                {t('payment amount')}
+                <input placeholder="0.01" type="text" inputMode="decimal" role="input" onChange={handleMoneyChange}></input>
+            </div>
+            <div className="donation-inputs-element">
+                {t('currency')}
+                <select value={currency} onChange={onCurrencyChange}>
+                    <option value="USD">United States dollar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">GBP</option>
+                    <option value="PLN">PLN</option>
+                </select>
+            </div>
+            
         </div>
         <PayPalButtons
                     createOrder={createOrder}

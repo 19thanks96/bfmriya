@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Button.scss'
 
-export const Button = ({children, href}) => {
+export const ButtonToAnotherSite = ({children, href}) => {
     return(
         <a href={href}>
             <div className='button'>

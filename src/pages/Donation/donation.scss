@@ -8,6 +8,13 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    .donation-inputs-element{
+        margin: 20px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .my-paypal-buttons{

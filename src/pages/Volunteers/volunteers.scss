@@ -24,12 +24,15 @@
 }
 
 @keyframes autoRotate {
-    from {
-      transform: rotate3d(0, 1, 0, 0deg);
-    }
-    to {
-      transform: rotate3d(0, 1, 0, 360deg);
-    }
+    0% {
+        transform: rotate3d(0, 1, 0, 300deg);
+      }
+      50%{
+        transform: rotate3d(0, 1, 0, 370deg);
+      }
+      100% {
+        transform: rotate3d(0, 1, 0, 300deg);
+      }
   }
   
   .volunteer-obj {
@@ -38,12 +41,14 @@
     margin: 20px;
     border: 2px solid $tertiary;
     background-position: 80%;
-    animation: autoRotate 10s linear infinite;
+    animation: autoRotate 10s ease-in-out infinite;
+    transition: transform 1s ease;
   
     &:hover {
         animation: none; 
         transform: rotate3d(1, 1, 1, 0deg); 
-        transition: transform 0.5s;
+        transition: transform 1s ease;
+
     }
 }
 @media (min-width: 500px) {
