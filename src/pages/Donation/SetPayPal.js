@@ -56,13 +56,12 @@ export const SetPayPal = () => {
     return (
         <>
         <div className="donation-inputs">
-            <div className="donation-inputs-element">
-                {t('payment amount')}
-                <input placeholder="0.01" type="text" inputMode="decimal" role="input" onChange={handleMoneyChange}></input>
+            <div className="payment">
+                <input placeholder="0.01" type="text" inputMode="decimal" id="payment-input" onChange={handleMoneyChange} role='input' />
+                <label className="label" htmlFor='payment-input'>{t('payment amount')}</label>
             </div>
             <div className="donation-inputs-element">
-                {t('currency')}
-                <select value={currency} onChange={onCurrencyChange}>
+                <select className="currency" value={currency} onChange={onCurrencyChange}>
                     <option value="USD">United States dollar</option>
                     <option value="EUR">Euro</option>
                     <option value="GBP">GBP</option>
