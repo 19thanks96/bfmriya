@@ -2,7 +2,7 @@ import { Link } from "../Link/Link";
 import '../Link/Link.scss'
 import '../burger-menu.scss'
 import React from "react";
-import logo from '../../../imgs/mria110-110.jpg'
+import logo from '../../../imgs/svg/logo-without-fon.png'
 import { NavItem } from "./NavItem";
 import useLocalStorage from "../../../hooks/use-localstorage";
 import i18n from "../../../i18n";
@@ -34,10 +34,7 @@ export const NavBar = () => {
       }
     return(
     <nav  className="navbar">
-            <RouterLink to="/"><img className="main-logo"  src={logo} alt='logo' height='50px' width='50px'/></RouterLink>
-        <div className="change-lang" onClick={handleLanguageChange}>
-                {language === 'ua' ? 'EN' : 'UA'}
-        </div>
+        
         <div className={`header__menu__menu ${menuOpen ? '_active' : ''}`} onClick={toggleMobileMenu}>
             <div className={`menu__icon ${menuOpen ? '_active' : ''}`}>
                 <span></span>
@@ -66,5 +63,9 @@ export const NavBar = () => {
                 </NavItem>
             </nav>
         </div>
+        <div className="change-lang" onClick={handleLanguageChange}>
+                {language === 'ua' ? 'EN' : 'UA'}
+        </div>
+        <RouterLink to="/"><img className="main-logo"  src={logo} alt='logo' height='50px' width='50px'/></RouterLink>
     </nav>
 )}

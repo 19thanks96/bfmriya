@@ -2,7 +2,6 @@
     z-index: 5;
     display: block;
     position: relative;
-    right: 15px;
     width: 30px;
     height: 18px;
     cursor: pointer;
@@ -100,9 +99,8 @@
         font-weight: 600;
     }
     .menu__body._active{
-        align-items: flex-end;
+        align-items: flex-start;
+        width: max-content;
     }
-    .menu__icon{
-        right: 32px;
-    }
+
 }

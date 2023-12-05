@@ -3,6 +3,7 @@ import { InfoContacts } from "./InfoContacts/InfoContacts";
 import './contacs.scss'
 import { Footer } from "./Footer";
 import { useTranslation } from "react-i18next";
+import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent";
 
 
 export const Contacts = () => {
@@ -10,9 +11,9 @@ export const Contacts = () => {
     return(
         <section >
             <div className="wrapper-page">
-                <div className="title">
+                <WordsAndLastComponent>
                     {t('contactus')}
-                </div>
+                </WordsAndLastComponent>
                 <div className="contacs">
                     <InfoContacts/>
                     <GoogleMap></GoogleMap>

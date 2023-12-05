@@ -11,7 +11,8 @@
 
 .contacs{
     background-color: $primary;
-
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     display: grid;
     grid-template-columns: 1fr; /* Two equal-width columns */
     gap: 20px;
@@ -26,8 +27,10 @@
 }
 
 .wrapper-contact{
-    margin-bottom: 5vw;
+    margin: 5vw 0;
 }
+
+
 
 .underline-contacts{
     color: $white;
@@ -51,6 +54,9 @@
     color: $white;
 }
 
+.google-map{
+}
+
 @media (min-width: 700px) {
     .title{
         background-color: $primary;
@@ -58,10 +64,16 @@
         font-weight: 700;
         padding: 20px 0 ;
     }
+    .google-map{
+        border-radius: 10px;
+        scale: 1.05;
+    }
     .contacs{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 0px;
+        margin: 20px;
+        border-radius: 10px;
+
     }
     .contact-section{
         font-weight: 500;

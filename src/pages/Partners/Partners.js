@@ -1,12 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { PartnersSection } from "./PartnersSection";
 import './Partners.scss'
+import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent";
 
 function Partners() {
   const {t} = useTranslation()
   return (
     <section className="partners wrapper-page">
-      <div className="title-partners">{t('partners')}</div>
+      <WordsAndLastComponent>{t('partners')}</WordsAndLastComponent>
       <div className='all-partners'>
       <h3>Список партнерів та благодійників:</h3>
       <ul>

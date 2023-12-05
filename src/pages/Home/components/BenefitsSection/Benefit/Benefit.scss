@@ -9,6 +9,7 @@
     justify-content: center;
     flex-wrap: nowrap;
     text-align: center;
+    gap:5px;
 
     img {
         align-self: center;
@@ -28,5 +29,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        
     }
 }

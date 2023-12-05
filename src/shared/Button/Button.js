@@ -3,10 +3,10 @@ import './Button.scss'
 
 export const Button = ({children, href}) => {
     return(
-        <a href={href}>
+        <Link to={href}>
             <div className='button'>
                 {children}
             </div>
-        </a>
+        </Link>
     )
 }

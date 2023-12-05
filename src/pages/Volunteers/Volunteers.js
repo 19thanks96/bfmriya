@@ -3,6 +3,7 @@ import { VolunteersSection } from "./VolunteersSection";
 import './volunteers.scss'
 import  images from "../../imgs/volunteers/Volunteers.img.js";
 import { Typography } from "../../shared/Typography/Typography";
+import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent";
 
 function Volunteers() {
   const {t} = useTranslation()
@@ -10,7 +11,7 @@ function Volunteers() {
 
   return (
     <section className="volunteers wrapper-page">
-      <Typography variant="h2" Tag='h2'>{t('ourvolunteers')}</Typography>
+      <WordsAndLastComponent>{t('ourvolunteers')}</WordsAndLastComponent>
       <div className='all-volunteers'>
       {imageKeys.map((key) => (
         <img key={key} src={images[key]} alt={`Volunteer ${key}`} className='volunteer-obj'/>

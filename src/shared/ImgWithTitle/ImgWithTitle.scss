@@ -8,11 +8,13 @@
     flex: 1;
     text-decoration: none;
     padding: 20px;
+    
 
     > div:first-child {
         text-align: center;
         align-self: center;
         font-size: 23px;
+        
     }
     >div:nth-child(2) {
         text-align: center;
@@ -50,16 +52,16 @@
     .ImgWithTitle{
         flex-direction: row;
         > div:nth-child(1) {
-            background-color: rgb(74, 74, 252);
+            background-color: rgb(74, 74, 252, 0.2);
         }
         > div:nth-child(2) {
-            background-color: rgb(247, 247, 81);
+            background-color: rgb(247, 247, 81, 0.2);
         }
         > div:nth-child(3) {
-            background-color: rgb(49, 155, 49);
+            background-color: rgb(49, 155, 49, 0.2);
         }
         > div:nth-child(4) {
-            background-color: rgb(190, 46, 46);
+            background-color: rgba(190, 46, 46, 0.2);
         }
         .img-with-title{
             flex-wrap: wrap;
