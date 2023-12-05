@@ -9,7 +9,8 @@ import i18n from "../../../i18n";
 import  {useTranslation}  from "react-i18next";
 import { useState } from "react";
 import { Link as RouterLink} from "react-router-dom";
-
+import inst from '../../../imgs/svg/instagram_black_logo_icon_147122.svg'
+import tg from '../../../imgs/svg/telegram_logo_icon_144811.svg'
 
 
 export const NavBar = () => {
@@ -34,7 +35,6 @@ export const NavBar = () => {
       }
     return(
     <nav  className="navbar">
-        
         <div className={`header__menu__menu ${menuOpen ? '_active' : ''}`} onClick={toggleMobileMenu}>
             <div className={`menu__icon ${menuOpen ? '_active' : ''}`}>
                 <span></span>

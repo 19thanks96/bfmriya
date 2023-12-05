@@ -6,7 +6,7 @@ export const AboutUsTextComponent = () => {
     return (
     <>
         <div className='About-Us-Text-Component-Ua'>
-            <div className='first-words-about-us'>
+            <div className=''>
             {t(`TextAbout`)}
             </div>
             <div className='last-words-about-us'>

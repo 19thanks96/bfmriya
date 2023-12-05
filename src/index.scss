@@ -14,7 +14,9 @@ body {
     flex-direction: column;
     overflow-x: hidden;
 }
-
+#root{
+  min-height: 100vh;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -24,4 +26,23 @@ code {
   padding-top: 60px;
 }
 
+
+$emergence-duration: 1s;
+section {
+  opacity: 0;
+  transform: translateY(50px); // You can adjust this value for the initial position
+
+  animation: emergenceAnimation $emergence-duration ease-out forwards;
+
+  @keyframes emergenceAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
 

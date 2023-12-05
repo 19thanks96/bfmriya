@@ -25,13 +25,28 @@
 
 @keyframes autoRotate {
     0% {
-        transform: rotate3d(0, 1, 0, 300deg);
+        transform: rotate3d(0, 1, 0, 360deg);
       }
-      50%{
-        transform: rotate3d(0, 1, 0, 370deg);
+      30% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+      34%{
+        transform: rotate3d(0, 1, 0, 400deg);
+      }
+      38% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+      60% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+      64% {
+        transform: rotate3d(0, 1, 0, 320deg);
+      }
+      68% {
+        transform: rotate3d(0, 1, 0, 360deg);
       }
       100% {
-        transform: rotate3d(0, 1, 0, 300deg);
+        transform: rotate3d(0, 1, 0, 360deg);
       }
   }
   

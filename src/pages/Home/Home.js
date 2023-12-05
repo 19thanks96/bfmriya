@@ -10,7 +10,8 @@ import { Footer } from './components/Footer/Footer';
 import { MainBlock } from './components/MainBlock/MainBlock';
 
 const Home = () => {
-    return <section className='wrapper-page'>
+    return (
+    <section className='wrapper-page'>
       <MainBlock/>
       <BenefitsSection/>
       <WhoWeHelpSection></WhoWeHelpSection>
@@ -21,6 +22,7 @@ const Home = () => {
       <AboutUs/>
       <Footer/>
     </section>
+    )
   };
   
   export default Home;

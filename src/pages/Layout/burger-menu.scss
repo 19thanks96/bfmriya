@@ -1,3 +1,4 @@
+@import '../../shared/Typography/colors.scss';
 .menu__icon{
     z-index: 5;
     display: block;
@@ -70,6 +71,7 @@
 }
 
 .menu__body._active {
+    margin-top: -35px;
     animation: burger 0.5s ease 0s ;
     left: 0;
     display: flex;

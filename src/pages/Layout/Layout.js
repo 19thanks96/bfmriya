@@ -6,10 +6,10 @@ import { NavBar } from "./NavBar/NavBar";
 
 const Layout = () => {
   return (
-    <section>
+    <div>
       <NavBar/>
       <Outlet />
-    </section>
+    </div>
   )
 };
 

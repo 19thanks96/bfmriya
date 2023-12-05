@@ -15,11 +15,11 @@
         align-self: center;
     }
     .upper-text{
-        color: #000000;
+        color: $black;
     }
 
     .lower-text{
-        color: $secondary;
+        color: mix($black, $secondary, 25%)
     }
 }
 

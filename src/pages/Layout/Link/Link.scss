@@ -105,8 +105,11 @@
   font-weight: 700;
   text-decoration: none;
   margin-bottom: 5vw;
-  color: $secondary;
+  color: $quinary;
   margin: 0 20px;
+  &:hover{
+    color: $white;
+  }
 }
 
 @media (min-width: 700px){
