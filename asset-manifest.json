@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/bfmriya/static/css/main.d11c63fe.css",
-    "main.js": "/bfmriya/static/js/main.3dc643b8.js",
+    "main.css": "/bfmriya/static/css/main.491d7513.css",
+    "main.js": "/bfmriya/static/js/main.498cd33c.js",
     "static/media/child-making-heart-with-hands.png": "/bfmriya/static/media/child-making-heart-with-hands.78d7da30dd3a36e8a286.png",
     "static/media/acknowledgment.pdf": "/bfmriya/static/media/acknowledgment.a2f7ba11977fdf84997b.pdf",
     "static/media/offerta-ua.pdf": "/bfmriya/static/media/offerta-ua.7c86d93a5aeba42c2e3c.pdf",
     "static/media/acknowledgment2.pdf": "/bfmriya/static/media/acknowledgment2.1ca16d8f3a5ceb48178a.pdf",
+    "static/media/logo-without-fon.png": "/bfmriya/static/media/logo-without-fon.79848fc3aa2cc1a72c89.png",
     "static/media/help-childrens.png": "/bfmriya/static/media/help-childrens.2c15640ddddfb0227536.png",
     "static/media/11.jpg": "/bfmriya/static/media/11.e6f8f987e1cb241db218.jpg",
+    "static/media/poryad.png": "/bfmriya/static/media/poryad.2c182bc65d2da4515f2c.png",
     "static/media/3.jpg": "/bfmriya/static/media/3.647251ae144bd7005cd9.jpg",
     "static/media/aid-for-people.jpg": "/bfmriya/static/media/aid-for-people.d5667ce3e6e9bdc0e92c.jpg",
     "static/media/aid-heavy-millitary.jpg": "/bfmriya/static/media/aid-heavy-millitary.202cd5173af90f63a90e.jpg",
@@ -23,6 +25,7 @@
     "static/media/5.jpg": "/bfmriya/static/media/5.61412e810adb4e78973c.jpg",
     "static/media/save-children-in-school.jpg": "/bfmriya/static/media/save-children-in-school.5f8f900daa84dd4e41fe.jpg",
     "static/media/aid-clothes.jpg": "/bfmriya/static/media/aid-clothes.9f10aadf418127b9f17c.jpg",
+    "static/media/oddisey.jpg": "/bfmriya/static/media/oddisey.88948fdb5fe963c68ed6.jpg",
     "static/media/near-herson.jpg": "/bfmriya/static/media/near-herson.1ca9a92d5872a41ac8c6.jpg",
     "static/media/9.jpg": "/bfmriya/static/media/9.60bcbc1ed23fa64f9f12.jpg",
     "static/media/8.jpg": "/bfmriya/static/media/8.4d22cdb35d3fc4a460f9.jpg",
@@ -37,19 +40,31 @@
     "static/media/save-lifes-zsu.jpg": "/bfmriya/static/media/save-lifes-zsu.035fe51eb096da3d1d24.jpg",
     "static/media/saint-mykolai.jpg": "/bfmriya/static/media/saint-mykolai.31ad2ca702495fcf3569.jpg",
     "static/media/hands-with-papper-humans.jpg": "/bfmriya/static/media/hands-with-papper-humans.f67d39b636efd3da214a.jpg",
-    "static/media/label2.jpg": "/bfmriya/static/media/label2.ec41dbcc91059a6a1298.jpg",
     "static/media/phone.png": "/bfmriya/static/media/phone.11203960b07d1090ac05.png",
+    "static/media/fizzy.jpg": "/bfmriya/static/media/fizzy.24f854ce56612e0fc81b.jpg",
     "static/media/offerta-en.pdf": "/bfmriya/static/media/offerta-en.277d51074461b0157da8.pdf",
+    "static/media/mriuzhitu.jpg": "/bfmriya/static/media/mriuzhitu.5b849c6d71cdcaf4ad73.jpg",
+    "static/media/love.jpg": "/bfmriya/static/media/love.e52762783b13203491cf.jpg",
+    "static/media/multiplex.jpg": "/bfmriya/static/media/multiplex.760a7364b114c1e702e4.jpg",
+    "static/media/wck.jpg": "/bfmriya/static/media/wck.8e4fc49cc0fdf8afd04d.jpg",
+    "static/media/inlight.jpg": "/bfmriya/static/media/inlight.6c500e6c30b1df5783f7.jpg",
+    "static/media/label.jpg": "/bfmriya/static/media/label.890c7c93f707438115c1.jpg",
     "static/media/mail.png": "/bfmriya/static/media/mail.8007c00b0613ba6a0221.png",
+    "static/media/newmail.jpg": "/bfmriya/static/media/newmail.f45cc5ab0edb45a5e56c.jpg",
+    "static/media/masha.jpg": "/bfmriya/static/media/masha.1d91381a03cbb480c004.jpg",
     "static/media/mria-ashan-300x300.jpg": "/bfmriya/static/media/mria-ashan-300x300.f69294d0ba3f5d729701.jpg",
+    "static/media/mc.jpg": "/bfmriya/static/media/mc.0fc4f765171af888bf1d.jpg",
+    "static/media/ashan.jpg": "/bfmriya/static/media/ashan.f0a0593836f843cedda3.jpg",
+    "static/media/do.jpg": "/bfmriya/static/media/do.44964c7d3736bded89ac.jpg",
     "static/media/instagram_black_logo_icon_147122.svg": "/bfmriya/static/media/instagram_black_logo_icon_147122.ef15be82f3869bb7096aa13933b0460a.svg",
     "index.html": "/bfmriya/index.html",
+    "static/media/telegram_icon_194153.svg": "/bfmriya/static/media/telegram_icon_194153.5950871fd5a03e6d1f40760fc873408e.svg",
     "static/media/telegram_logo_icon_144811.svg": "/bfmriya/static/media/telegram_logo_icon_144811.43af0740171b6649822b95b0df42ac93.svg",
-    "main.d11c63fe.css.map": "/bfmriya/static/css/main.d11c63fe.css.map",
-    "main.3dc643b8.js.map": "/bfmriya/static/js/main.3dc643b8.js.map"
+    "main.491d7513.css.map": "/bfmriya/static/css/main.491d7513.css.map",
+    "main.498cd33c.js.map": "/bfmriya/static/js/main.498cd33c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d11c63fe.css",
-    "static/js/main.3dc643b8.js"
+    "static/css/main.491d7513.css",
+    "static/js/main.498cd33c.js"
   ]
 }
