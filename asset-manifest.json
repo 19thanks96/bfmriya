@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bfmriya/static/css/main.491d7513.css",
-    "main.js": "/bfmriya/static/js/main.498cd33c.js",
+    "main.css": "/bfmriya/static/css/main.b34195cd.css",
+    "main.js": "/bfmriya/static/js/main.ba894315.js",
     "static/media/child-making-heart-with-hands.png": "/bfmriya/static/media/child-making-heart-with-hands.78d7da30dd3a36e8a286.png",
     "static/media/acknowledgment.pdf": "/bfmriya/static/media/acknowledgment.a2f7ba11977fdf84997b.pdf",
     "static/media/offerta-ua.pdf": "/bfmriya/static/media/offerta-ua.7c86d93a5aeba42c2e3c.pdf",
@@ -60,11 +60,11 @@
     "index.html": "/bfmriya/index.html",
     "static/media/telegram_icon_194153.svg": "/bfmriya/static/media/telegram_icon_194153.5950871fd5a03e6d1f40760fc873408e.svg",
     "static/media/telegram_logo_icon_144811.svg": "/bfmriya/static/media/telegram_logo_icon_144811.43af0740171b6649822b95b0df42ac93.svg",
-    "main.491d7513.css.map": "/bfmriya/static/css/main.491d7513.css.map",
-    "main.498cd33c.js.map": "/bfmriya/static/js/main.498cd33c.js.map"
+    "main.b34195cd.css.map": "/bfmriya/static/css/main.b34195cd.css.map",
+    "main.ba894315.js.map": "/bfmriya/static/js/main.ba894315.js.map"
   },
   "entrypoints": [
-    "static/css/main.491d7513.css",
-    "static/js/main.498cd33c.js"
+    "static/css/main.b34195cd.css",
+    "static/js/main.ba894315.js"
   ]
 }
