@@ -61,6 +61,9 @@ export const NavBar = () => {
                 <NavItem>
                     <Link to="/projects">{t("projects")}</Link>
                 </NavItem>
+                <NavItem>
+                    <Link to="/statistics">{t("statistics")}</Link>
+                </NavItem>
             </nav>
         </div>
         <div className="change-lang" onClick={handleLanguageChange}>

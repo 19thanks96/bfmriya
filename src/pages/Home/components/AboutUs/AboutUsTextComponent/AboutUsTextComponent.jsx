@@ -5,7 +5,7 @@ export const AboutUsTextComponent = () => {
     const {t} = useTranslation()
     return (
     <>
-        <div className='About-Us-Text-Component-Ua'>
+        <div className='About-Us-Text-Component'>
             <div className=''>
             {t(`TextAbout`)}
             </div>

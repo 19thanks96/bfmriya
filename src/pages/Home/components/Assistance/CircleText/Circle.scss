@@ -1,4 +1,6 @@
 @import '../../../../../shared/Typography/colors.scss';
+@import '../../../../../shared/Typography/fonts.scss';
+
 @function tint-color($base-color, $percentage) {
     // Your tinting logic here
     @return mix(white, $base-color, $percentage);
@@ -10,10 +12,10 @@
     align-content: center;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 3vw;
     margin-bottom: 5vw;
-    font-size: 4vw;
+    font-size: $text;
 }
 .circle{
     width: 10vw;
@@ -23,7 +25,7 @@
     align-items: center;
     justify-content: center;
     color: #000;
-    font-size: 4vw;
+    font-size: $text;
     font-weight: 700;
     margin-left: 3vw;
     gap: 3vw;
@@ -56,7 +58,7 @@
         gap: 10px;
     }
     .TranlatedTextInSpan{
-        font-size: 20px;
+        font-size: $text;
     }
     .circle.tint0,
     .circle.tint10,
@@ -64,7 +66,7 @@
     .circle.tint30,
     .circle.tint40,
     .circle.tint50{
-        font-size: 30px;
+        font-size: $text;
         width: 90px;
         height: 90px;
     }
@@ -73,5 +75,11 @@
         flex-wrap: nowrap;
         display: grid;
         grid-template-columns: 1fr 3fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .assistance-item-list{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

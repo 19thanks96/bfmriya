@@ -1,3 +1,5 @@
+@import '../../shared/Typography/fonts.scss';
+
 .img-with-title{
     display: flex;
     flex-direction: column;
@@ -13,7 +15,7 @@
     > div:first-child {
         text-align: center;
         align-self: center;
-        font-size: 23px;
+        font-size: $subtitle;
         
     }
     >div:nth-child(2) {
@@ -50,7 +52,10 @@
 }
 @media (min-width:700px) {
     .ImgWithTitle{
+        display: flex;
         flex-direction: row;
+        margin: 1%;
+        flex-wrap: wrap;
         > div:nth-child(1) {
             background-color: rgb(74, 74, 252, 0.2);
         }
@@ -64,11 +69,17 @@
             background-color: rgba(190, 46, 46, 0.2);
         }
         .img-with-title{
+            margin: 1%;
             flex-wrap: wrap;
+            flex: 1 1 48%;
+            position: relative;
+            box-sizing: border-box;
             border-radius: 10px;
             padding: 50px 20px;
+            justify-content: space-between;
+
             div{
-                display: none;
+                display: block;
             }
             @keyframes bigger{
                 0%{
@@ -82,17 +93,15 @@
                 }
             }
             img{
-                animation: bigger 1s  ease-in-out infinite;
+                // animation: bigger 1s  ease-in-out infinite;
                 min-width: 100px;
                 min-height: 100px;
+                position: relative;
             }
             &:hover{
-                flex: auto;
-                div{
-                    display: block;
-                }
+                
                 img{
-                    width: 90%;
+                    // width: 90%;
                     animation: none;
                     scale: 1;
                 }
@@ -101,3 +110,10 @@
     }
 }
 
+@media (min-width:1700px) {
+    .ImgWithTitle{
+        .img-with-title{
+            flex: 1 1 20%;
+        }
+    }
+}

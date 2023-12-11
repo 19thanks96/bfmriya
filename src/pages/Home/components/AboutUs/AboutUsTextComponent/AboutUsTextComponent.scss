@@ -2,7 +2,7 @@
 @import '../../../../../shared/Typography/fonts';
 
 
-.About-Us-Text-Component-Ua{
+.About-Us-Text-Component{
     margin-left: 5vw;
     margin-bottom: 5vw;
     text-align: left;
@@ -11,18 +11,10 @@
     justify-content: space-between;
     color: mix($black, $secondary, 35%);
     font-weight: 400;
+    font-size: $mini-text;
 }
 
-.About-Us-Text-Component-En{
-    margin-left: 5vw;
-    margin-bottom: 5vw;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #000;
-    font-weight: 400;
-}
+
 
 
 .last-words-about-us{

@@ -3,6 +3,7 @@ import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent"
 import { ImgWithTitle } from "../../shared/ImgWithTitle/ImgWithTitle"
 import { ProjectImages as images } from "./ProjectImages"
 import './Projects.scss'
+import { Footer } from "../../shared/Footer/Footer"
 
 export const Projects = () => {
     const {t} = useTranslation()
@@ -11,7 +12,7 @@ export const Projects = () => {
         <section className='wrapper-page project-page'>
             <WordsAndLastComponent>{t('projects')}</WordsAndLastComponent>
                 <ImgWithTitle images={images}></ImgWithTitle>
-            
+            <Footer/>
         </section>
     )
 }

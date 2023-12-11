@@ -26,6 +26,9 @@ code {
   padding-top: 60px;
 }
 
+a{
+  text-decoration-line: none;
+}
 
 $emergence-duration: 1s;
 section {
@@ -46,3 +49,13 @@ section {
   }
 }
 
+/* For WebKit (Chrome, Safari) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}

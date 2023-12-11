@@ -4,6 +4,7 @@ import './volunteers.scss'
 import  images from "../../imgs/volunteers/Volunteers.img.js";
 import { Typography } from "../../shared/Typography/Typography";
 import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent";
+import { Footer } from "../../shared/Footer/Footer";
 
 function Volunteers() {
   const {t} = useTranslation()
@@ -17,6 +18,7 @@ function Volunteers() {
         <img key={key} src={images[key]} alt={`Volunteer ${key}`} className='volunteer-obj'/>
       ))}
         </div>
+        <Footer/>
     </section>
   );
 }

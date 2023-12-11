@@ -1,10 +1,9 @@
 import './TranlatedTextInSpan.scss'
 
-export const TranlatedTextInSpan = ({primary, secondary}) => {
+export const TranlatedTextInSpan = ({text}) => {
     return (
-        <div className='TranlatedTextInSpan'>
-            <span className="primary-text">{primary}</span>
-            <span className="secondary-text">{secondary}</span>
-        </div>
+        <>
+            <span className="secondary-text">{text}</span>
+        </>
     )
 }

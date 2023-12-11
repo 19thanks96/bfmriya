@@ -1,4 +1,6 @@
 @import '../../../../../shared/Typography/colors.scss';
+@import '../../../../../shared/Typography/fonts.scss';
+
 
 .ul-help{
     display: flex;
@@ -24,6 +26,7 @@
     overflow-wrap: anywhere;
     position: relative;
     overflow: hidden;
+    font-size: $mini-text;
     &::before{
         content: "";
         position: absolute;
@@ -50,7 +53,7 @@
     }
     .help-element{
         flex: 0 0;
-        font-size: 25px;
+        font-size: $text;
         align-items: center;
         width: 150px !important;
         height: 250px;

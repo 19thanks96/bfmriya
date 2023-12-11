@@ -1,4 +1,6 @@
 @import'../Typography/colors.scss';
+@import'../Typography/fonts.scss';
+
 
 .button{
     display: inline-table;
@@ -9,6 +11,7 @@
     background-color: $quaternary;
     margin: 20px 0;
     text-decoration: none;
+    font-size: $text;
     &:hover{
     color: $quaternary;
     background-color: $white;
@@ -16,3 +19,10 @@
     }
 }
 
+@media (min-width: 700px) {
+    .button{
+        padding: 15px 40px;
+        margin: 20px 0px;
+        font-size: $mini-text;
+    }
+}

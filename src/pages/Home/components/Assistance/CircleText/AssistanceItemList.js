@@ -5,12 +5,12 @@ export const AssistanceItemList = () => {
     const {t} = useTranslation()
     return (
         <div className='assistance-item-list'>
-            <AssistanceItem number='1'  secondary={t('FOOD')}/>
-            <AssistanceItem number='2'  secondary={t('HYGIENE PRODUCTS')}/>
-            <AssistanceItem number='3'  secondary={t('MEDICINE')}/>
-            <AssistanceItem number='4'  secondary={t('CLOTHES')}/>
-            <AssistanceItem number='5'  secondary={t('MILITARY GOODS')}/>
-            <AssistanceItem number='6'  secondary={t('PSYHOLOGICAL ASSISTANCE')}/>
+            <AssistanceItem number='1'  text={t('FOOD')}/>
+            <AssistanceItem number='2'  text={t('HYGIENE PRODUCTS')}/>
+            <AssistanceItem number='3'  text={t('MEDICINE')}/>
+            <AssistanceItem number='4'  text={t('CLOTHES')}/>
+            <AssistanceItem number='5'  text={t('MILITARY GOODS')}/>
+            <AssistanceItem number='6'  text={t('PSYHOLOGICAL ASSISTANCE')}/>
         </div>
     )
 }

@@ -6,8 +6,8 @@ import { Assistance } from './components/Assistance/Assistance';
 import { CharitableResult } from './components/CharitableResult/CharitableResult';
 import { HelpItsEasy } from './components/HelpItsEasy/HelpItsEasy';
 import { AboutUs } from './components/AboutUs/AboutUs';
-import { Footer } from './components/Footer/Footer';
 import { MainBlock } from './components/MainBlock/MainBlock';
+import { Footer } from '../../shared/Footer/Footer';
 
 const Home = () => {
     return (

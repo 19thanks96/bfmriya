@@ -4,7 +4,7 @@ import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
 const containerStyle = {
   width: window.innerWidth,
-  height: window.innerWidth
+  height: window.innerHeight
 };
 
  
@@ -36,13 +36,13 @@ function GoogleMapComponent() {
 
   if(containerStyle.width > 700) {
     containerStyle.width /= 2
-    containerStyle.height /= 2
+    containerStyle.height -= 350
 
   }
 
   return isLoaded ? (
       <GoogleMap
-        mapContainerStyle={containerStyle}
+        // mapContainerStyle={containerStyle}
         center={center}
         zoom={10}
         onLoad={onLoad}

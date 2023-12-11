@@ -30,10 +30,10 @@
 }
 
 .primary-text-tranlated-text-section-on-photo {
-  text-align: left;
+  text-align: center;
   margin: 0 0 0 5vw;
   font-family: $primary-fonts; 
-  font-size: 6vw;
+  font-size: $title;
   color: $primary; 
   font-weight: 800;
   z-index: 2; 
@@ -43,7 +43,7 @@
   text-align: left;
   margin: 0 0 5vw 5vw;
   font-family: $primary-fonts; 
-  font-size: 6vw;
+  font-size: $subtitle;
   color: #fff;
   font-weight: 800;
   z-index: 2; 

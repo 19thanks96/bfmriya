@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'fonts'; 
 
 .yellow{
     background-color: $warning;
@@ -20,7 +21,7 @@
 }
 
 .black-h2-span{
-    font-size: 9vw;
+    font-size: $title;
     line-height: 15vw;
     font-weight: 700;
     letter-spacing: 0px;
@@ -28,7 +29,7 @@
 }
 
 .blue-h2-span{
-    font-size: 9vw;
+    font-size: $title;
     line-height: 15vw;
     font-weight: 700;
     letter-spacing: 0px;
@@ -41,13 +42,13 @@
 }
 
 .second-title.primary{
-    font-size: 6vw;
+    font-size: $subtitle;
     color:$tertiary;
     font-weight: 400;
 } 
 
 .second-title.secondary{
-    font-size: 3vw;
+    font-size: $subtitle;
     color: $secondary;
     font-weight: 400;
 }
@@ -55,7 +56,7 @@
 
 
 .wrapper-third-title-primary{
-    font-size: 6vw;
+    font-size: $title;
     color:$tertiary;
     font-weight: 700;
     margin-bottom: 5vw;
@@ -64,7 +65,7 @@
 }
 
 .wrapper-third-title-secondary{
-    font-size: 6vw;
+    font-size: $title;
     color: $primary;
     font-weight: 700;
     margin-left: 5vw;
@@ -72,7 +73,7 @@
 }
 
 .wrapper-third-title-third{
-    font-size: 6vw;
+    font-size: $title;
     font-weight: 700;
     margin-left: 5vw;
     text-align: left;
