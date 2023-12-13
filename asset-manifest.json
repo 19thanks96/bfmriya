@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bfmriya/static/css/main.e32b16a0.css",
-    "main.js": "/bfmriya/static/js/main.1d0ec10a.js",
+    "main.css": "/bfmriya/static/css/main.458d6cdc.css",
+    "main.js": "/bfmriya/static/js/main.6e7278c5.js",
     "static/media/child-making-heart-with-hands.png": "/bfmriya/static/media/child-making-heart-with-hands.78d7da30dd3a36e8a286.png",
     "static/media/acknowledgment.pdf": "/bfmriya/static/media/acknowledgment.a2f7ba11977fdf84997b.pdf",
     "static/media/offerta-ua.pdf": "/bfmriya/static/media/offerta-ua.7c86d93a5aeba42c2e3c.pdf",
@@ -13,9 +13,9 @@
     "static/media/3.jpg": "/bfmriya/static/media/3.647251ae144bd7005cd9.jpg",
     "static/media/aid-for-people.jpg": "/bfmriya/static/media/aid-for-people.d5667ce3e6e9bdc0e92c.jpg",
     "static/media/aid-heavy-millitary.jpg": "/bfmriya/static/media/aid-heavy-millitary.202cd5173af90f63a90e.jpg",
+    "static/media/keep-warm.jpg": "/bfmriya/static/media/keep-warm.f0dd759cd8a13dd409d8.jpg",
     "static/media/1.jpg": "/bfmriya/static/media/1.29c993a3644d7a422285.jpg",
     "static/media/aid-old-woman.jpg": "/bfmriya/static/media/aid-old-woman.24dcae82d8ff7cb2ed1a.jpg",
-    "static/media/childrens-1024x576.jpg": "/bfmriya/static/media/childrens-1024x576.de067ae47ce0355b1d8a.jpg",
     "static/media/camouflage.jpg": "/bfmriya/static/media/camouflage.b176490221b8c9f778c1.jpg",
     "static/media/saint-mykolai-and-children.jpg": "/bfmriya/static/media/saint-mykolai-and-children.e13908659877990ff0ad.jpg",
     "static/media/congratulation-newyear.jpg": "/bfmriya/static/media/congratulation-newyear.1ccd42781f59b06f6597.jpg",
@@ -24,6 +24,7 @@
     "static/media/animal-help.jpg": "/bfmriya/static/media/animal-help.334d2b6ffab17427b4a8.jpg",
     "static/media/5.jpg": "/bfmriya/static/media/5.61412e810adb4e78973c.jpg",
     "static/media/save-children-in-school.jpg": "/bfmriya/static/media/save-children-in-school.5f8f900daa84dd4e41fe.jpg",
+    "static/media/children.jpg": "/bfmriya/static/media/children.cf373b2d5bacf6e3a180.jpg",
     "static/media/aid-clothes.jpg": "/bfmriya/static/media/aid-clothes.9f10aadf418127b9f17c.jpg",
     "static/media/oddisey.jpg": "/bfmriya/static/media/oddisey.88948fdb5fe963c68ed6.jpg",
     "static/media/near-herson.jpg": "/bfmriya/static/media/near-herson.1ca9a92d5872a41ac8c6.jpg",
@@ -39,7 +40,6 @@
     "static/media/16.jpg": "/bfmriya/static/media/16.5c1c5562aa13932e8770.jpg",
     "static/media/save-lifes-zsu.jpg": "/bfmriya/static/media/save-lifes-zsu.035fe51eb096da3d1d24.jpg",
     "static/media/saint-mykolai.jpg": "/bfmriya/static/media/saint-mykolai.31ad2ca702495fcf3569.jpg",
-    "static/media/hands-with-papper-humans.jpg": "/bfmriya/static/media/hands-with-papper-humans.f67d39b636efd3da214a.jpg",
     "static/media/phone.png": "/bfmriya/static/media/phone.11203960b07d1090ac05.png",
     "static/media/fizzy.jpg": "/bfmriya/static/media/fizzy.24f854ce56612e0fc81b.jpg",
     "static/media/offerta-en.pdf": "/bfmriya/static/media/offerta-en.277d51074461b0157da8.pdf",
@@ -60,11 +60,11 @@
     "index.html": "/bfmriya/index.html",
     "static/media/telegram_icon_194153.svg": "/bfmriya/static/media/telegram_icon_194153.5950871fd5a03e6d1f40760fc873408e.svg",
     "static/media/telegram_logo_icon_144811.svg": "/bfmriya/static/media/telegram_logo_icon_144811.43af0740171b6649822b95b0df42ac93.svg",
-    "main.e32b16a0.css.map": "/bfmriya/static/css/main.e32b16a0.css.map",
-    "main.1d0ec10a.js.map": "/bfmriya/static/js/main.1d0ec10a.js.map"
+    "main.458d6cdc.css.map": "/bfmriya/static/css/main.458d6cdc.css.map",
+    "main.6e7278c5.js.map": "/bfmriya/static/js/main.6e7278c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e32b16a0.css",
-    "static/js/main.1d0ec10a.js"
+    "static/css/main.458d6cdc.css",
+    "static/js/main.6e7278c5.js"
   ]
 }
