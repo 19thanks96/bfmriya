@@ -14,6 +14,7 @@ import { Donation } from './pages/Donation/Donation';
 import { Awards } from './pages/Awards/Awards';
 import { Projects } from './pages/Projects/Projects';
 import { Statistics } from './pages/Statistics/Statistics';
+import { Congratulation } from './pages/Congratulation/Congratulation';
 
 export default function Main() {
   useEffect(() => {
@@ -35,6 +36,7 @@ export default function Main() {
           <Route path="/awards" element={<Awards />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/statistics" element={<Statistics />} />
+          <Route path="/congratulation" element={<Congratulation/>} />
 
 
           <Route path="*" element={<NoPage />} />

@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-auto-flow: dense;
-    background: $quinary;
+    background: $white;
     z-index: 4;
     align-items: center;
     justify-content: space-between;
@@ -105,7 +105,7 @@
   font-weight: 700;
   text-decoration: none;
   margin-bottom: 5vw;
-  color: $quinary;
+  color: $primary;
   margin: 0 20px;
   &:hover{
     color: $white;

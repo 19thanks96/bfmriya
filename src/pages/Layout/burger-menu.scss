@@ -11,12 +11,12 @@
 .menu__icon span,
 .menu__icon::before,
 .menu__icon::after {
+    background-color: $primary;
     left: 0;
     position: absolute;
     height: 10%;
     width: 100%;
     transition: all 0.3s ease 0s;
-    background-color: #fff;
 }
 
 .menu__icon::before,

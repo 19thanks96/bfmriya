@@ -13,6 +13,7 @@ import Poryad from './poryad.png';
 import UNF from './uhf.jpg';
 import Uklon from './uklon.jpg';
 import WorldCentralKitchen from './wck.jpg';
+import fundaciaQ from './fundaciaQ.jpg'
 
 export const partnersData = [
   { name: 'Novaya Poshta', image: NovayaPoshta },
@@ -30,4 +31,6 @@ export const partnersData = [
   { name: 'BF Odyssey Cherkasy', image: Odyssey },
   { name: 'BF Mriyu Zhyty', image: MriyuZhyty },
   { name: 'BF Poryad Ukraine', image: Poryad },
+  { name: 'fundaciaQ', image: fundaciaQ },
+
 ];

@@ -47,8 +47,8 @@ export const SetPayPal = () => {
     };
 
     const onApprove = (data, actions) => {
-        
         console.log("Payment approved:", data);
+        window.location.hash = '/congratulation';
     };
 
 

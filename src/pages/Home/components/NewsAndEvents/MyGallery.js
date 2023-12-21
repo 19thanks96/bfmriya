@@ -1,6 +1,6 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
-import foto from '../../../../imgs/hands-with-papper-humans.jpg'
+import foto from '../../../../imgs/keep-warm.jpg'
 import foto2 from '../../../../imgs/save-lifes-zsu.jpg'
 import foto3 from '../../../../imgs/saint-mykolai.jpg'
 
@@ -11,7 +11,7 @@ import './NewsAndEvents.scss'
 const images = [
     {
         original: foto,
-        originalAlt: 'hands with papper humans',
+        originalAlt: 'keep warm zsu',
         description : 'Щомісячна допомога Квітень',
         originalTitle : 'Щомісячна допомога Квітень'
     },

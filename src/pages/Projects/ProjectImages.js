@@ -1,4 +1,4 @@
-import foto from  '../../imgs/hands-with-papper-humans.jpg'
+import foto from  '../../imgs/keep-warm.jpg'
 import foto2 from '../../imgs/save-lifes-zsu.jpg'
 import foto3 from '../../imgs/animal-help.jpg'
 import foto4 from '../../imgs/help-childrens.png'

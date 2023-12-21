@@ -9,9 +9,6 @@ import i18n from "../../../i18n";
 import  {useTranslation}  from "react-i18next";
 import { useState } from "react";
 import { Link as RouterLink} from "react-router-dom";
-import inst from '../../../imgs/svg/instagram_black_logo_icon_147122.svg'
-import tg from '../../../imgs/svg/telegram_logo_icon_144811.svg'
-
 
 export const NavBar = () => {
     const [language, setLanguage] = useLocalStorage('language', 'en')
@@ -29,10 +26,9 @@ export const NavBar = () => {
         }
         
     }
-
     const toggleMobileMenu = () => {
         setMenuOpen(!menuOpen); 
-      }
+    }
     return(
     <nav  className="navbar">
         <div className={`header__menu__menu ${menuOpen ? '_active' : ''}`} onClick={toggleMobileMenu}>
@@ -44,25 +40,25 @@ export const NavBar = () => {
                     <Link to="/">{t("who we are")}</Link>
                 </NavItem>
                 <NavItem>
-                    <Link to="/volunteers">{t("ourvolunteers")}</Link>
-                </NavItem>
-                <NavItem>
-                    <Link to="/contacts">{t("contacs")}</Link>
-                </NavItem>
-                <NavItem>
-                    <Link to="/partners">{t("partners")}</Link>
-                </NavItem>
-                <NavItem>
-                    <Link to="/awards">{t("awards")}</Link>
-                </NavItem>
-                <NavItem>
                     <Link to="/donation">{t("donation")}</Link>
                 </NavItem>
                 <NavItem>
                     <Link to="/projects">{t("projects")}</Link>
                 </NavItem>
                 <NavItem>
+                    <Link to="/partners">{t("partners")}</Link>
+                </NavItem>
+                <NavItem>
+                    <Link to="/volunteers">{t("ourvolunteers")}</Link>
+                </NavItem>
+                <NavItem>
+                    <Link to="/awards">{t("awards")}</Link>
+                </NavItem>
+                <NavItem>
                     <Link to="/statistics">{t("statistics")}</Link>
+                </NavItem>
+                <NavItem>
+                    <Link to="/contacts">{t("contacs")}</Link>
                 </NavItem>
             </nav>
         </div>
