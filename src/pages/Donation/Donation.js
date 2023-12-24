@@ -1,5 +1,7 @@
 
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent";
 import "./donation.scss";
 import { PayPal } from "./PayPal";
 
@@ -7,6 +9,7 @@ export const Donation = () => {
     const [getNewData, setNewData] = useState(false)
     const [value, setValue] = useState(0)
     const [currency, setCurrency] = useState("USD");
+    const {t} = useTranslation();
     function handleInputChange(e) {
         setNewData(true)
         const newValue = Number(parseFloat(e.target.value))
@@ -22,7 +25,12 @@ export const Donation = () => {
       }
     return (
         <section className='wrapper-page donation-page'>
-                <PayPal />
+            <h1>
+                <WordsAndLastComponent>
+                    {t('Donate')}
+                </WordsAndLastComponent>
+            </h1>
+            <PayPal />
         </section>
     )
 }

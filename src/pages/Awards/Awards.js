@@ -9,14 +9,16 @@ export const Awards = () => {
     const {t} = useTranslation()
     return (
         <section className="wrapper-page">
-        <WordsAndLastComponent>{t('ourAwards')}</WordsAndLastComponent>
+        <h1>
+            <WordsAndLastComponent>{t('ourAwards')}</WordsAndLastComponent>
+        </h1>
         <MyImageGallery images={awardsImages}/>
         <div className="award-link-wrapper">
             <div>
-                <a href={acknowledgments.acknowledgment} target="_blank" className="award-link" rel="noopener noreferrer">{t('acknowledgment')}</a>
+                <a href={acknowledgments.acknowledgment} target="_blank" className="button" rel="noopener noreferrer">{t('acknowledgment')}</a>
             </div>
             <div>
-            <a href={acknowledgments.acknowledgment2} target="_blank" className="award-link" rel="noopener noreferrer">{t('acknowledgment')}</a>
+            <a href={acknowledgments.acknowledgment2} target="_blank" className="button" rel="noopener noreferrer">{t('acknowledgment')}</a>
             </div>
         </div>
         <Footer/>

@@ -13,13 +13,13 @@ export const WordsAndLastComponent = ({ children }) => {
     };
 
     return (
-        <div>
-            <Typography variant='black-h2-span' Tag='h2'>
+        <>
+            <Typography variant='black-h2-span' Tag='span'>
                  {result.originalStringWithoutLastWord}&nbsp;
             </Typography>
-            <Typography variant='blue-h2-span' Tag='h2'>
+            <Typography variant='blue-h2-span' Tag='span'>
                 {result.lastWord}
             </Typography>
-        </div>
+        </>
     );
 };

@@ -11,9 +11,11 @@ export const Contacts = () => {
     return(
         <section >
             <div className="wrapper-page">
-                <WordsAndLastComponent>
-                    {t('contactus')}
-                </WordsAndLastComponent>
+                <h1>
+                    <WordsAndLastComponent>
+                        {t('contactus')}
+                    </WordsAndLastComponent>
+                </h1>
                 <div className="contacs">
                     <InfoContacts/>
                     <GoogleMap></GoogleMap>

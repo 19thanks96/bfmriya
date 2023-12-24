@@ -5,7 +5,9 @@ export const Congratulation = () => {
     const {t} = useTranslation()
     return (
         <section className="wrapper-page">
-            <div className="payment-success">{t('payment')}</div>
+            <h1>
+                <div className="payment-success">{t('payment')}</div>
+            </h1>
             <div className="congratulation">{t('congratulation')}</div>
         </section>
     )

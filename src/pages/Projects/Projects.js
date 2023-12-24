@@ -10,7 +10,7 @@ export const Projects = () => {
 
     return (
         <section className='wrapper-page project-page'>
-            <WordsAndLastComponent>{t('projects')}</WordsAndLastComponent>
+            <h1><WordsAndLastComponent>{t('projects')}</WordsAndLastComponent></h1>
                 <ImgWithTitle images={images}></ImgWithTitle>
             <Footer/>
         </section>

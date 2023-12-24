@@ -1,5 +1,5 @@
 export const MainBlockTextSection = ({primary, secondary, thierd}) => (
-    <>
+    <h1>
         <span className="primary-text-main-block">
             {primary}
         </span>
@@ -7,5 +7,5 @@ export const MainBlockTextSection = ({primary, secondary, thierd}) => (
             {secondary}
         </span>
         <div className="thierd-text-main-block">{thierd}</div>
-    </>
+    </h1>
 )

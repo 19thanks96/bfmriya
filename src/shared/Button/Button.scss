@@ -12,10 +12,12 @@
     margin: 20px 0;
     text-decoration: none;
     font-size: $text;
-    &:hover{
-    color: $quaternary;
-    background-color: $white;
-    border: 1px solid $quaternary;
+    @media (hover: hover) and (pointer: fine) {
+        &:hover{
+            color: $quaternary;
+            background-color: $white;
+            border: 1px solid $quaternary;
+        }
     }
 }
 

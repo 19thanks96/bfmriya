@@ -9,7 +9,9 @@ function Partners() {
   console.log(partnersData)
   return (
     <section className="partners wrapper-page">
-      <WordsAndLastComponent>{t('partners')}</WordsAndLastComponent>
+      <h1>
+        <WordsAndLastComponent>{t('partners')}</WordsAndLastComponent>
+      </h1>
       <div className="all-partners">
         {partnersData.map((image, index) => (
           <div className={'partner'}>

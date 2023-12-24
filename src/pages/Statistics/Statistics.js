@@ -7,7 +7,9 @@ export const Statistics = () => {
     const {t} = useTranslation()
     return (
         <section className="statistics wrapper-page">
-            <WordsAndLastComponent>{t('statistics')}</WordsAndLastComponent>
+            <h1>
+                <WordsAndLastComponent>{t('statistics')}</WordsAndLastComponent>
+            </h1>
             <StatisticsList/>
             <Footer/>
         </section>
