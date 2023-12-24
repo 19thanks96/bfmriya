@@ -1,6 +1,5 @@
 import ofertaUa from '../../shared/offerta-ua.pdf'
 import ofertaEn from '../../shared/offerta-en.pdf'
-import useLocalStorage from "../../hooks/use-localstorage.js";
 import inst from '../../imgs/svg/instagram_black_logo_icon_147122.svg'
 import tg from '../../imgs/svg/telegram_logo_icon_144811.svg'
 import { useTranslation } from 'react-i18next';

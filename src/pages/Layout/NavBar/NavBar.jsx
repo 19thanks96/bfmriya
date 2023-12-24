@@ -11,7 +11,7 @@ import { useState } from "react";
 import { Link as RouterLink} from "react-router-dom";
 
 export const NavBar = () => {
-    const [language, setLanguage] = useLocalStorage('language', 'en')
+    const [language, setLanguage] = useLocalStorage('language', 'ua')
     const [menuOpen, setMenuOpen] = useState(false);
 
     const {t} = useTranslation();
