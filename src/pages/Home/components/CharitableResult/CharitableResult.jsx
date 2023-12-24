@@ -1,6 +1,5 @@
 import { ThirdTitle } from "../../../../shared/Title/ThirdTitle";
 import { TranslatedTextSection } from "./TranslatedTextSection/TranslatedTextSection";
-import { Button } from "../../../../shared/Button/Button";
 import { PhotoDesk } from "./PhotoDesk/PhotoDesk";
 import { useTranslation } from "react-i18next";
 import './CharitableResult.scss'

@@ -11,7 +11,7 @@ export const Footer = () => {
     const {t} = useTranslation()
     return (
         <section className='footer'>
-            <img src={svg}/> 
+            <img src={svg} alt='Logo charitable foundation bfmriya'/> 
             <Typography Tag='h4' variant='footer-slogan'>
                 { t(`slogan`)}
             </Typography>

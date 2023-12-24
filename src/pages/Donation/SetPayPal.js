@@ -57,7 +57,7 @@ export const SetPayPal = () => {
         <>
         <div className="donation-inputs">
             <div className="payment">
-                <input placeholder="0.01" type="text" inputMode="decimal" id="payment-input" onChange={handleMoneyChange} role='input' />
+                <input placeholder="0.01" type="text" inputMode="decimal" id="payment-input" onChange={handleMoneyChange}/>
                 <label className="label" htmlFor='payment-input'>{t('payment amount')}</label>
             </div>
             <div className="donation-inputs-element">

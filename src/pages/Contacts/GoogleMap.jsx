@@ -1,13 +1,12 @@
 import React from 'react'
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
-
 const containerStyle = {
   width: window.innerWidth,
   height: window.innerHeight
 };
 
- 
+
 const center = {
   lat: 50.391890,
   lng: 30.644690,

@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next"
 import { Button } from "../../../../shared/Button/Button"
-import { Title } from "../../../../shared/Title/Title"
 import { WordsAndLastComponent } from "../../../../shared/Title/WordsAndLastComponent"
 import { MyGallery } from "./MyGallery"
 

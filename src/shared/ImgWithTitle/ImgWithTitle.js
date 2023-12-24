@@ -7,11 +7,11 @@ export const ImgWithTitle = ({images}) => {
     return(
         <div className='ImgWithTitle'>
         {images.map((image) => (
-            <div className="img-with-title">
+            <div className="img-with-title" key={image.src}>
                 {image.projectDescription.map((text) => (
-                    <div className={text}>{t(text)}</div>
+                    <div className={text} key={text}>{t(text)}</div>
                 ))}
-                <img key={image.text} src={image.src} alt={image.alt} className='fullphoto'/>
+                <img src={image.src} alt={image.alt} className='fullphoto'/>
                 {<ButtonToAnotherSite href={image.href}>{t('Donate')}</ButtonToAnotherSite>}
             </div>
         ))}
