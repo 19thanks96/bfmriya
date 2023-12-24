@@ -3,9 +3,15 @@ import './Partners.scss'
 import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent";
 import { Footer } from "../../shared/Footer/Footer";
 import {partnersData} from '../../imgs/partners/partners.js'
+import { useEffect } from "react";
+
 function Partners() {
   const {t} = useTranslation()
-  console.log(partnersData)
+
+  useEffect(() => {
+    document.title = t('partners');
+  }, [t]);
+
   return (
     <section className="partners wrapper-page">
       <h1>

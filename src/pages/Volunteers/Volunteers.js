@@ -3,11 +3,16 @@ import './volunteers.scss'
 import  images from "../../imgs/volunteers/Volunteers.img.js";
 import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent";
 import { Footer } from "../../shared/Footer/Footer";
+import { useEffect } from "react";
 
 function Volunteers() {
   const {t} = useTranslation()
   const imageKeys = Object.keys(images);
 
+  useEffect(() => {
+    document.title = t('ourvolunteers');
+  }, [t]);
+  
   return (
     <section className="volunteers wrapper-page">
       <h1>

@@ -4,9 +4,14 @@ import { ImgWithTitle } from "../../shared/ImgWithTitle/ImgWithTitle"
 import { ProjectImages as images } from "./ProjectImages"
 import './Projects.scss'
 import { Footer } from "../../shared/Footer/Footer"
+import { useEffect } from "react"
 
 export const Projects = () => {
     const {t} = useTranslation()
+
+    useEffect(() => {
+        document.title = t('projects');
+    }, [t]);
 
     return (
         <section className='wrapper-page project-page'>

@@ -5,8 +5,14 @@ import { useTranslation } from "react-i18next"
 import './Awards.scss';
 import { WordsAndLastComponent } from "../../shared/Title/WordsAndLastComponent";
 import { Footer } from "../../shared/Footer/Footer";
+import { useEffect } from "react";
 export const Awards = () => {
     const {t} = useTranslation()
+
+    useEffect(() => {
+        document.title = t('ourAwards');
+    }, [t]);
+
     return (
         <section className="wrapper-page">
         <h1>

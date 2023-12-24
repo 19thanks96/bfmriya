@@ -24,7 +24,6 @@ export const NavBar = () => {
             i18n.changeLanguage('en')
             setLanguage('en')
         }
-        
     }
     const toggleMobileMenu = () => {
         setMenuOpen(!menuOpen); 
