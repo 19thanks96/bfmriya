@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bfmriya/static/css/main.458d6cdc.css",
-    "main.js": "/bfmriya/static/js/main.6e7278c5.js",
+    "main.css": "/bfmriya/static/css/main.34f71248.css",
+    "main.js": "/bfmriya/static/js/main.8e607cc6.js",
     "static/media/child-making-heart-with-hands.png": "/bfmriya/static/media/child-making-heart-with-hands.78d7da30dd3a36e8a286.png",
     "static/media/acknowledgment.pdf": "/bfmriya/static/media/acknowledgment.a2f7ba11977fdf84997b.pdf",
     "static/media/offerta-ua.pdf": "/bfmriya/static/media/offerta-ua.7c86d93a5aeba42c2e3c.pdf",
@@ -45,6 +45,7 @@
     "static/media/offerta-en.pdf": "/bfmriya/static/media/offerta-en.277d51074461b0157da8.pdf",
     "static/media/mriuzhitu.jpg": "/bfmriya/static/media/mriuzhitu.5b849c6d71cdcaf4ad73.jpg",
     "static/media/love.jpg": "/bfmriya/static/media/love.e52762783b13203491cf.jpg",
+    "static/media/fundaciaQ.jpg": "/bfmriya/static/media/fundaciaQ.a17206c25e3493a21060.jpg",
     "static/media/multiplex.jpg": "/bfmriya/static/media/multiplex.760a7364b114c1e702e4.jpg",
     "static/media/wck.jpg": "/bfmriya/static/media/wck.8e4fc49cc0fdf8afd04d.jpg",
     "static/media/inlight.jpg": "/bfmriya/static/media/inlight.6c500e6c30b1df5783f7.jpg",
@@ -60,11 +61,11 @@
     "index.html": "/bfmriya/index.html",
     "static/media/telegram_icon_194153.svg": "/bfmriya/static/media/telegram_icon_194153.5950871fd5a03e6d1f40760fc873408e.svg",
     "static/media/telegram_logo_icon_144811.svg": "/bfmriya/static/media/telegram_logo_icon_144811.43af0740171b6649822b95b0df42ac93.svg",
-    "main.458d6cdc.css.map": "/bfmriya/static/css/main.458d6cdc.css.map",
-    "main.6e7278c5.js.map": "/bfmriya/static/js/main.6e7278c5.js.map"
+    "main.34f71248.css.map": "/bfmriya/static/css/main.34f71248.css.map",
+    "main.8e607cc6.js.map": "/bfmriya/static/js/main.8e607cc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.458d6cdc.css",
-    "static/js/main.6e7278c5.js"
+    "static/css/main.34f71248.css",
+    "static/js/main.8e607cc6.js"
   ]
 }
