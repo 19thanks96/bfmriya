@@ -1,17 +1,62 @@
+@import './css-reset.css';
+@import '~react-image-gallery/styles/css/image-gallery.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    overflow-x: hidden;
+    background-color:  #dadce0;;
 }
-
+#root{
+  min-height: 100vh;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper-page {
+  padding-top: 60px;
+}
+
+a{
+  text-decoration-line: none;
+}
+
+$emergence-duration: 1s;
+section {
+  opacity: 0;
+  transform: translateY(50px); // You can adjust this value for the initial position
+
+  animation: emergenceAnimation $emergence-duration ease-out forwards;
+
+  @keyframes emergenceAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* For WebKit (Chrome, Safari) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
 }

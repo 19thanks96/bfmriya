@@ -1,0 +1,54 @@
+@import '../../../../shared/Typography/colors'; /* Adjust the path as needed */
+@import '../../../../shared/Typography/fonts'; /* Adjust the path as needed */
+
+.photo {
+    position: relative;
+    background-image: url('./Img/child-making-heart-with-hands.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 100vw;
+    max-width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+  }
+}
+
+.primary-text-tranlated-text-section-on-photo {
+  text-align: center;
+  margin: 0 0 0 5vw;
+  font-family: $primary-fonts; 
+  font-size: $title;
+  color: $primary; 
+  font-weight: 800;
+  z-index: 2; 
+}
+
+.secondary-text-tranlated-text-section-on-photo {
+  text-align: left;
+  margin: 0 0 5vw 5vw;
+  font-family: $primary-fonts; 
+  font-size: $subtitle;
+  color: #fff;
+  font-weight: 800;
+  z-index: 2; 
+}
+
+.wrapper-for-phototext{
+  margin-bottom: 5vw;
+}

@@ -1,11 +1,15 @@
+import { useTranslation } from "react-i18next"
 import { Button } from "../../../../shared/Button/Button"
-import { Title } from "../../../../shared/Title/Title"
+import { WordsAndLastComponent } from "../../../../shared/Title/WordsAndLastComponent"
+import { MyGallery } from "./MyGallery"
 
 export const NewsAndEvents = () => {
+    const {t} = useTranslation()
     return (
-        <>
-        <Title primary='Наші новини та' secondary='події'/>
-        <Button>Докладніше</Button>
-        </>
+        <section>
+            <WordsAndLastComponent>{t('news and')}</WordsAndLastComponent>
+        <MyGallery/>
+        <Button href='/projects'>{t('more')}</Button>
+        </section>
     )
 }

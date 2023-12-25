@@ -11,5 +11,7 @@
 }
 .secondary-text{
     font-weight: 700;
-    color: $secondary;
+    color: mix($black, $secondary, 25%);
+    text-align: start;
+
 }

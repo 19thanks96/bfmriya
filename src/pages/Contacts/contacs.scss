@@ -1,0 +1,143 @@
+@import '../../shared/Typography/colors.scss';
+@import '../../shared/Typography/fonts.scss';
+
+
+.title{
+    background-color: $primary;
+    font-size: $subtitle;
+    font-weight: 500;
+    padding: 20px 0 ;
+    border: 4px solid $white;
+    border-radius: 10px;
+}
+
+.contacs{
+    background-color: $primary;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr; /* Two equal-width columns */
+    gap: 20px;
+}
+
+.contact-section{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 3vw;
+    font-size: $subtitle;
+    color: $warning;
+}
+
+.wrapper-contact{
+    margin: 5vw 0;
+}
+
+
+
+.underline-contacts{
+    color: $white;
+    font-weight: 500;
+    font-size: $text;
+    padding-bottom: 5vw;
+    text-decoration-line: none;
+    &:hover{
+    text-decoration-line: underline;
+    }
+}
+
+.footer-contacts{
+    padding: 5vw 0;
+    background: $flag;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.offert{
+    font-size: $mini-text;
+    text-align: center;
+    color: $white;
+}
+
+.google-map{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (min-width: 700px) {
+    .title{
+        background-color: $primary;
+        font-size: $title;
+        font-weight: 700;
+        padding: 20px 0 ;
+    }
+    
+    .contacs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+        border-radius: 10px;
+
+    }
+    .contact-section{
+        font-weight: 500;
+        margin: 10px 0;
+        font-size: $subtitle;
+    }
+    .underline-contacts{
+        font-weight: 500;
+        font-size: $subtitle;
+    }
+    .contacs.wrapper-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    .wrapper-contact img{
+        width: 50px;
+        height: 50px;
+    }
+    .wrapper-contact{
+        margin-bottom: 0px;
+        margin-top: 5px;
+
+    }
+    .block-contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+    .underline{
+        font-weight: normal;
+        font-size: $subtitle;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+    .footer-contacts{
+        margin: 0px;
+        padding: 10px 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .google-map{
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 950px) {
+    .google-map{
+        border-radius: 10px;
+        scale: 1.05;
+    }
+    .contacs{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .google-map{
+        width: 100vw;
+        height: 75vh;
+    }
+}

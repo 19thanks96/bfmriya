@@ -1,0 +1,84 @@
+@import '../../shared/Typography/colors.scss';
+
+.volunteers-section{
+
+}
+
+.volunteer-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+.all-volunteers{
+}
+
+.title-volunteers{
+    font-size: 3vw;
+    margin: 20px 0;
+}
+
+.volunteers-job-title{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+@keyframes autoRotate {
+    0% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+      30% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+      34%{
+        transform: rotate3d(0, 1, 0, 400deg);
+      }
+      38% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+      60% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+      64% {
+        transform: rotate3d(0, 1, 0, 320deg);
+      }
+      68% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+      100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+  }
+  
+  .volunteer-obj {
+    width: 100px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid $tertiary;
+    background-position: 80%;
+    animation: autoRotate 10s ease-in-out infinite;
+    transition: transform 1s ease;
+  
+    &:hover {
+        animation: none; 
+        transform: rotate3d(1, 1, 1, 0deg); 
+        transition: transform 1s ease;
+        box-shadow: 0px 0px 20px 2px rgb(118 118 201);
+    }
+}
+@media (min-width: 500px) {
+    .volunteer-obj{
+        width: 150px;
+        border-radius: 15px;
+        margin: 30px;
+    }
+}
+
+@media (min-width: 700px) {
+    .volunteer-obj{
+        width: 200px;
+        border-radius: 20px;
+        margin: 40px;
+
+    }
+}

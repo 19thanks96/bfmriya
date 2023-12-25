@@ -1,28 +1,30 @@
-button{
-    border: none;
+@import'../Typography/colors.scss';
+@import'../Typography/fonts.scss';
+
+
+.button{
+    display: inline-table;
+    border: 1px solid $quaternary;
     padding: 10px 35px;
     border-radius: 50px;
-    background-color: #eeee22;
-    transition: transform 0.3s ;
-    .start-position{
-        display: flex;
-        justify-content: flex-start;
+    color: $white;
+    background-color: $quaternary;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: $text;
+    @media (hover: hover) and (pointer: fine) {
+        &:hover{
+            color: $quaternary;
+            background-color: $white;
+            border: 1px solid $quaternary;
+        }
     }
 }
 
-  
-  button:hover {
-    animation-duration: 3s;
-    animation-name: scale;
-    animation-direction: alternate; 
-  }
-  
-  @keyframes scale {
-    0% {
-      transform: scale(1);
+@media (min-width: 700px) {
+    .button{
+        padding: 15px 40px;
+        margin: 20px 0px;
+        font-size: $mini-text;
     }
-  
-    100% {
-      transform: scale(1.25);
-    }
-  }
+}

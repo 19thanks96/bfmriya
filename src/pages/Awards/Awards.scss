@@ -1,0 +1,43 @@
+@import '../../shared/Typography/colors.scss';
+
+.awards-title{
+    margin: 20px 0 0 0 ;
+    font-size: 30px;
+    font-weight: 600;
+    color: $primary;
+}
+
+.award-link-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin:20px 0 50px  0;
+}
+
+.award-link{
+    color: $white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    
+    padding: 10px;
+    border-radius: 20px;
+    background-color: $primary;
+    box-shadow: 3px 3px 3px $secondary;
+}
+
+@media (min-width: 700px) {
+    .awards-title{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .award-link-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .award-link{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}

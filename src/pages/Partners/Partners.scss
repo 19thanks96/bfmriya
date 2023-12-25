@@ -1,0 +1,48 @@
+@import '../../shared/Typography/colors.scss';
+@import '../../shared/Typography/fonts.scss';
+
+.all-partners{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 40px 0;
+    .partner{
+        min-height: 300px;
+        border-radius: 20px;
+        margin: 20px;
+        background-color: $secondary;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    img{
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 700px) {
+    .all-partners{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .all-partners{
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+.title-partners{
+    font-size: $text;
+    margin: 20px 0;
+}
+
+.partners-job-title{
+    margin: 20px 0;
+
+
+    font-size: $mini-text;
+    font-weight: 500;
+}

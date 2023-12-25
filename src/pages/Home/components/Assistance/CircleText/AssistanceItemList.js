@@ -1,14 +1,16 @@
+import { useTranslation } from 'react-i18next'
 import { AssistanceItem } from './AssistanceItem/AssistanceItem'
 
 export const AssistanceItemList = () => {
+    const {t} = useTranslation()
     return (
-        <>
-            <AssistanceItem number='1' primary='ПРОДУКТИ ХАРЧУВАННЯ' secondary='FOOD'/>
-            <AssistanceItem number='2' primary='ЗАСОБИ ГІГІЄНИ' secondary='HYGIENE PRODUCTS'/>
-            <AssistanceItem number='3' primary='ЛІКИ' secondary='MEDICINE'/>
-            <AssistanceItem number='4' primary='ОДЯГ' secondary='CLOTHES'/>
-            <AssistanceItem number='5' primary='ТОВАРИ ВІЙСЬКОВОГО ПРИЗНАЧЕННЯ' secondary='MILITARY GOODS'/>
-            <AssistanceItem number='6' primary='ПСИХОЛОГІЧНА ДОПОМОГА' secondary='PSYHOLOGICAL ASSISTANCE'/>
-        </>
+        <div className='assistance-item-list'>
+            <AssistanceItem number='1'  text={t('FOOD')}/>
+            <AssistanceItem number='2'  text={t('HYGIENE PRODUCTS')}/>
+            <AssistanceItem number='3'  text={t('MEDICINE')}/>
+            <AssistanceItem number='4'  text={t('CLOTHES')}/>
+            <AssistanceItem number='5'  text={t('MILITARY GOODS')}/>
+            <AssistanceItem number='6'  text={t('PSYHOLOGICAL ASSISTANCE')}/>
+        </div>
     )
 }

@@ -1,9 +1,12 @@
+import { Link } from 'react-router-dom';
 import './Button.scss'
 
-export const Button = ({children}) => {
+export const Button = ({children, href}) => {
     return(
-        <button type='button'>
-            {children}
-        </button>
+        <Link to={href}>
+            <div className='button'>
+                {children}
+            </div>
+        </Link>
     )
 }

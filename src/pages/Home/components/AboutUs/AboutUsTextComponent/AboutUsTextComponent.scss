@@ -1,0 +1,22 @@
+@import '../../../../../shared/Typography/colors';
+@import '../../../../../shared/Typography/fonts';
+
+
+.About-Us-Text-Component{
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: mix($black, $secondary, 35%);
+    font-weight: 400;
+    font-size: $mini-text;
+}
+
+
+
+
+.last-words-about-us{
+    margin-top: 3vw;
+}

@@ -1,14 +1,14 @@
-import { Button } from "../../../../shared/Button/Button"
-import { Title } from "../../../../shared/Title/Title"
 import { TextSection } from "./TextSection/TextSection"
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { WordsAndLastComponent } from "../../../../shared/Title/WordsAndLastComponent";
 
 export const WhoWeHelpSection = () => {
- return (
-    <section>
-        <Title primary='Кому ми надаємо' secondary='допомогу?
-        WHO WE HELP?'/>
-        <TextSection/>
-        <Button>Докладніше</Button>
-    </section>
- )
+    const {t} = useTranslation();
+    return (
+        <section>
+            <WordsAndLastComponent>{t("WHO WE")}</WordsAndLastComponent>
+            <TextSection/>
+        </section>
+    )
 }
