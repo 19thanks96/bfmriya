@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.246640c9.css",
-    "main.js": "/static/js/main.9a8a3014.js",
+    "main.js": "/static/js/main.b660d33a.js",
     "static/media/child-making-heart-with-hands.png": "/static/media/child-making-heart-with-hands.78d7da30dd3a36e8a286.png",
     "static/media/acknowledgment.pdf": "/static/media/acknowledgment.a2f7ba11977fdf84997b.pdf",
     "static/media/offerta-ua.pdf": "/static/media/offerta-ua.7c86d93a5aeba42c2e3c.pdf",
@@ -62,10 +62,10 @@
     "static/media/telegram_icon_194153.svg": "/static/media/telegram_icon_194153.5950871fd5a03e6d1f40760fc873408e.svg",
     "static/media/telegram_logo_icon_144811.svg": "/static/media/telegram_logo_icon_144811.86229be21dda891fbb10cb9591894d2e.svg",
     "main.246640c9.css.map": "/static/css/main.246640c9.css.map",
-    "main.9a8a3014.js.map": "/static/js/main.9a8a3014.js.map"
+    "main.b660d33a.js.map": "/static/js/main.b660d33a.js.map"
   },
   "entrypoints": [
     "static/css/main.246640c9.css",
-    "static/js/main.9a8a3014.js"
+    "static/js/main.b660d33a.js"
   ]
 }
