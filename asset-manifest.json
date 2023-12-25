@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bfmriya/static/css/main.25aae0be.css",
-    "main.js": "/bfmriya/static/js/main.cf2a549a.js",
+    "main.js": "/bfmriya/static/js/main.805931af.js",
     "static/media/child-making-heart-with-hands.png": "/bfmriya/static/media/child-making-heart-with-hands.78d7da30dd3a36e8a286.png",
     "static/media/acknowledgment.pdf": "/bfmriya/static/media/acknowledgment.a2f7ba11977fdf84997b.pdf",
     "static/media/offerta-ua.pdf": "/bfmriya/static/media/offerta-ua.7c86d93a5aeba42c2e3c.pdf",
@@ -57,15 +57,15 @@
     "static/media/mc.jpg": "/bfmriya/static/media/mc.0fc4f765171af888bf1d.jpg",
     "static/media/ashan.jpg": "/bfmriya/static/media/ashan.f0a0593836f843cedda3.jpg",
     "static/media/do.jpg": "/bfmriya/static/media/do.44964c7d3736bded89ac.jpg",
-    "static/media/instagram_black_logo_icon_147122.svg": "/bfmriya/static/media/instagram_black_logo_icon_147122.ef15be82f3869bb7096aa13933b0460a.svg",
+    "static/media/instagram_black_logo_icon_147122.svg": "/bfmriya/static/media/instagram_black_logo_icon_147122.7b6f6aa7f307c316562634c1f14b8aa8.svg",
     "index.html": "/bfmriya/index.html",
     "static/media/telegram_icon_194153.svg": "/bfmriya/static/media/telegram_icon_194153.5950871fd5a03e6d1f40760fc873408e.svg",
-    "static/media/telegram_logo_icon_144811.svg": "/bfmriya/static/media/telegram_logo_icon_144811.43af0740171b6649822b95b0df42ac93.svg",
+    "static/media/telegram_logo_icon_144811.svg": "/bfmriya/static/media/telegram_logo_icon_144811.86229be21dda891fbb10cb9591894d2e.svg",
     "main.25aae0be.css.map": "/bfmriya/static/css/main.25aae0be.css.map",
-    "main.cf2a549a.js.map": "/bfmriya/static/js/main.cf2a549a.js.map"
+    "main.805931af.js.map": "/bfmriya/static/js/main.805931af.js.map"
   },
   "entrypoints": [
     "static/css/main.25aae0be.css",
-    "static/js/main.cf2a549a.js"
+    "static/js/main.805931af.js"
   ]
 }
