@@ -7,7 +7,7 @@ export const MainBlock = () => {
     const {t} = useTranslation()
 
     useEffect(() => {
-        document.title = t('main-first') + t('main-second');
+        document.title = t('main-first') + " " + t('main-second');
     }, [t]);
     return (
     <section className="wrapper-for-phototext">
