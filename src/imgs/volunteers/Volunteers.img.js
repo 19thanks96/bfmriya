@@ -27,7 +27,7 @@ import z from './26.png';
 import aa from './27.png';
 
 const images = { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa };
-// const images = { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o,  q, r, s,  u, v, w, x, y, z, aa };
+
 
 
 export default images
