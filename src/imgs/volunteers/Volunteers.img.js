@@ -13,11 +13,11 @@ import l from './12.png';
 import m from './13.png';
 import n from './14.png';
 import o from './15.png';
-// import p from './16.png';
+import p from './16.jpg';
 import q from './17.png';
 import r from './18.png';
 import s from './19.png';
-// import t from './20.png';
+import t from './20.jpg';
 import u from './21.png';
 import v from './22.png';
 import w from './23.png';
@@ -26,8 +26,8 @@ import y from './25.png';
 import z from './26.png';
 import aa from './27.png';
 
-// const images = { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa };
-const images = { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o,  q, r, s,  u, v, w, x, y, z, aa };
+const images = { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa };
+// const images = { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o,  q, r, s,  u, v, w, x, y, z, aa };
 
 
 export default images
